@@ -79,15 +79,18 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel a hahah
+                    Next 5 API Servie
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
+                    <a href="https://laravel.com/docs">Swagger</a>
+                    <a href="https://github.com/gitlabc/ladapi">GitHub</a>              
+                    <a href="https://packagist.org/packages/gitlabc/stringutils">Packagist</a>                
+                    {{-- <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://github.com/laravel/laravel">GitHub</a> --}}
                 </div>
             </div>
         </div>
