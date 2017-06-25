@@ -11,7 +11,7 @@ services:
       - ./:/var/www
     environment:
       - "DB_PORT=3306"
-      - "DB_HOST=database"
+      - "DB_HOST=db"
 
   # The Web Server
   web:
@@ -25,13 +25,13 @@ services:
       - 8080:80
 
   # The Database
-  database:
+  db:
     image: mysql:5.6
     volumes:
       - dbdata:/var/lib/mysql
     environment:
-      - "MYSQL_DATABASE=homestead"
-      - "MYSQL_USER=homestead"
+      - "MYSQL_DATABASE=lad"
+      - "MYSQL_USER=lad"
       - "MYSQL_PASSWORD=secret"
       - "MYSQL_ROOT_PASSWORD=secret"
     ports:
@@ -39,3 +39,4 @@ services:
 
 volumes:
   dbdata:
+

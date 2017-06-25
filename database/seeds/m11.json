@@ -1,0 +1,2323 @@
+{
+  "serverConfig___startup": {
+    "success": true,
+    "result": null,
+    "errors": null,
+    "hash": "57df04b6418c41959a0356a88ea98f0c"
+  },
+  "meeting___getByEventId___3c1fa17413a2892907e0c0936fa77eb7": {
+    "success": true,
+    "result": {
+      "events": [
+        {
+          "id": 32719735,
+          "meetingId": 80051,
+          "meetingName": "Rockhampton",
+          "status": "(Final) Closed",
+          "country": "AUS",
+          "state": "QLD",
+          "stream": -1,
+          "description": "Rockhampton Jockey Club",
+          "outcomeTime": 1498035300,
+          "suspendTime": 1498035342,
+          "distance": "407m",
+          "raceNumber": 1,
+          "trackCondition": "Slow",
+          "weather": "Fine",
+          "type": "G",
+          "products": null,
+          "competitors": null,
+          "trackCode": null,
+          "resultsOutcome": {
+            "1": [
+              4
+            ],
+            "2": [
+              7
+            ],
+            "3": [
+              6
+            ],
+            "4": [
+              5
+            ]
+          },
+          "coupledResultsOutcome": null,
+          "dividends": null,
+          "fvf": {
+            "product": "FixedWin",
+            "fixedPricings": true,
+            "favouriteCompetitorId": 127138513,
+            "favouriteOdds": 2.3,
+            "fieldOdds": 1.4
+          },
+          "isEasyGateRace": false,
+          "fixedOddsWin": true,
+          "fixedOddsPlace": true,
+          "eachWayFixed": true,
+          "eachWayTote": false,
+          "exoticBet": true,
+          "firstFour": true,
+          "quinella": true,
+          "homeTote": "TATTS",
+          "smallPool": false,
+          "boostAvailable": false,
+          "boostType": null,
+          "hasRideGuide": false,
+          "numberPlacings": 3,
+          "promoType": null,
+          "fixed": true
+        },
+        {
+          "id": 32719736,
+          "meetingId": 80051,
+          "meetingName": "Rockhampton",
+          "status": "(Final) Closed",
+          "country": "AUS",
+          "state": "QLD",
+          "stream": -1,
+          "description": "Kelly Suli Appreciation",
+          "outcomeTime": 1498036500,
+          "suspendTime": 1498036535,
+          "distance": "407m",
+          "raceNumber": 2,
+          "trackCondition": "Slow",
+          "weather": "Fine",
+          "type": "G",
+          "products": null,
+          "competitors": null,
+          "trackCode": null,
+          "resultsOutcome": {
+            "1": [
+              5
+            ],
+            "2": [
+              3
+            ],
+            "3": [
+              6
+            ],
+            "4": [
+              2
+            ]
+          },
+          "coupledResultsOutcome": null,
+          "dividends": null,
+          "fvf": {
+            "product": "FixedWin",
+            "fixedPricings": true,
+            "favouriteCompetitorId": 127138528,
+            "favouriteOdds": 2.8,
+            "fieldOdds": 1.26
+          },
+          "isEasyGateRace": false,
+          "fixedOddsWin": true,
+          "fixedOddsPlace": true,
+          "eachWayFixed": true,
+          "eachWayTote": false,
+          "exoticBet": true,
+          "firstFour": true,
+          "quinella": true,
+          "homeTote": "TATTS",
+          "smallPool": false,
+          "boostAvailable": false,
+          "boostType": null,
+          "hasRideGuide": false,
+          "numberPlacings": 3,
+          "promoType": null,
+          "fixed": true
+        },
+        {
+          "id": 32719737,
+          "meetingId": 80051,
+          "meetingName": "Rockhampton",
+          "status": "(Final) Closed",
+          "country": "AUS",
+          "state": "QLD",
+          "stream": -1,
+          "description": "Gary Moore Appreciation",
+          "outcomeTime": 1498037700,
+          "suspendTime": 1498037740,
+          "distance": "407m",
+          "raceNumber": 3,
+          "trackCondition": "Slow",
+          "weather": "Fine",
+          "type": "G",
+          "products": null,
+          "competitors": null,
+          "trackCode": null,
+          "resultsOutcome": {
+            "1": [
+              2
+            ],
+            "2": [
+              3
+            ],
+            "3": [
+              7
+            ],
+            "4": [
+              4
+            ]
+          },
+          "coupledResultsOutcome": null,
+          "dividends": null,
+          "fvf": {
+            "product": "FixedWin",
+            "fixedPricings": true,
+            "favouriteCompetitorId": 127138533,
+            "favouriteOdds": 3,
+            "fieldOdds": 1.22
+          },
+          "isEasyGateRace": false,
+          "fixedOddsWin": true,
+          "fixedOddsPlace": true,
+          "eachWayFixed": true,
+          "eachWayTote": false,
+          "exoticBet": true,
+          "firstFour": true,
+          "quinella": true,
+          "homeTote": "TATTS",
+          "smallPool": false,
+          "boostAvailable": false,
+          "boostType": null,
+          "hasRideGuide": false,
+          "numberPlacings": 2,
+          "promoType": null,
+          "fixed": true
+        },
+        {
+          "id": 32719738,
+          "meetingId": 80051,
+          "meetingName": "Rockhampton",
+          "status": "(Final) Closed",
+          "country": "AUS",
+          "state": "QLD",
+          "stream": -1,
+          "description": "News Express",
+          "outcomeTime": 1498038900,
+          "suspendTime": 1498038925,
+          "distance": "407m",
+          "raceNumber": 4,
+          "trackCondition": "Slow",
+          "weather": "Fine",
+          "type": "G",
+          "products": null,
+          "competitors": null,
+          "trackCode": null,
+          "resultsOutcome": {
+            "1": [
+              3
+            ],
+            "2": [
+              5
+            ],
+            "3": [
+              7
+            ],
+            "4": [
+              4
+            ]
+          },
+          "coupledResultsOutcome": null,
+          "dividends": null,
+          "fvf": {
+            "product": "FixedWin",
+            "fixedPricings": true,
+            "favouriteCompetitorId": 127138546,
+            "favouriteOdds": 3.6,
+            "fieldOdds": 1.14
+          },
+          "isEasyGateRace": false,
+          "fixedOddsWin": true,
+          "fixedOddsPlace": true,
+          "eachWayFixed": true,
+          "eachWayTote": false,
+          "exoticBet": true,
+          "firstFour": true,
+          "quinella": true,
+          "homeTote": "TATTS",
+          "smallPool": false,
+          "boostAvailable": false,
+          "boostType": null,
+          "hasRideGuide": false,
+          "numberPlacings": 3,
+          "promoType": null,
+          "fixed": true
+        },
+        {
+          "id": 32719739,
+          "meetingId": 80051,
+          "meetingName": "Rockhampton",
+          "status": "(Final) Closed",
+          "country": "AUS",
+          "state": "QLD",
+          "stream": -1,
+          "description": "Wendy Mulry Travel",
+          "outcomeTime": 1498040100,
+          "suspendTime": 1498040135,
+          "distance": "407m",
+          "raceNumber": 5,
+          "trackCondition": "Slow",
+          "weather": "Fine",
+          "type": "G",
+          "products": null,
+          "competitors": null,
+          "trackCode": null,
+          "resultsOutcome": {
+            "1": [
+              2
+            ],
+            "2": [
+              6
+            ],
+            "3": [
+              3
+            ],
+            "4": [
+              8
+            ]
+          },
+          "coupledResultsOutcome": null,
+          "dividends": null,
+          "fvf": {
+            "product": "FixedWin",
+            "fixedPricings": true,
+            "favouriteCompetitorId": 127138548,
+            "favouriteOdds": 3.3,
+            "fieldOdds": 1.18
+          },
+          "isEasyGateRace": false,
+          "fixedOddsWin": true,
+          "fixedOddsPlace": true,
+          "eachWayFixed": true,
+          "eachWayTote": false,
+          "exoticBet": true,
+          "firstFour": true,
+          "quinella": true,
+          "homeTote": "TATTS",
+          "smallPool": false,
+          "boostAvailable": false,
+          "boostType": null,
+          "hasRideGuide": false,
+          "numberPlacings": 2,
+          "promoType": null,
+          "fixed": true
+        },
+        {
+          "id": 32719740,
+          "meetingId": 80051,
+          "meetingName": "Rockhampton",
+          "status": "Open",
+          "country": "AUS",
+          "state": "QLD",
+          "stream": -1,
+          "description": "Garrards Horse & Hound",
+          "outcomeTime": 1498041540,
+          "suspendTime": 1498041622,
+          "distance": "407m",
+          "raceNumber": 6,
+          "trackCondition": "Slow",
+          "weather": "Fine",
+          "type": "G",
+          "products": null,
+          "competitors": null,
+          "trackCode": null,
+          "resultsOutcome": null,
+          "coupledResultsOutcome": null,
+          "dividends": null,
+          "fvf": {
+            "product": "FixedWin",
+            "fixedPricings": true,
+            "favouriteCompetitorId": 127138562,
+            "favouriteOdds": 1.6,
+            "fieldOdds": 2
+          },
+          "isEasyGateRace": false,
+          "fixedOddsWin": true,
+          "fixedOddsPlace": true,
+          "eachWayFixed": true,
+          "eachWayTote": false,
+          "exoticBet": true,
+          "firstFour": true,
+          "quinella": true,
+          "homeTote": "TATTS",
+          "smallPool": false,
+          "boostAvailable": false,
+          "boostType": null,
+          "hasRideGuide": false,
+          "numberPlacings": 2,
+          "promoType": null,
+          "fixed": true
+        },
+        {
+          "id": 32719741,
+          "meetingId": 80051,
+          "meetingName": "Rockhampton",
+          "status": "Open",
+          "country": "AUS",
+          "state": "QLD",
+          "stream": -1,
+          "description": "Welcome Back Joe Feeney",
+          "outcomeTime": 1498042500,
+          "suspendTime": 1498042500,
+          "distance": "510m",
+          "raceNumber": 7,
+          "trackCondition": "Slow",
+          "weather": "Fine",
+          "type": "G",
+          "products": null,
+          "competitors": null,
+          "trackCode": null,
+          "resultsOutcome": null,
+          "coupledResultsOutcome": null,
+          "dividends": null,
+          "fvf": {
+            "product": "FixedWin",
+            "fixedPricings": true,
+            "favouriteCompetitorId": 127138568,
+            "favouriteOdds": 2.6,
+            "fieldOdds": 1.3
+          },
+          "isEasyGateRace": false,
+          "fixedOddsWin": true,
+          "fixedOddsPlace": true,
+          "eachWayFixed": true,
+          "eachWayTote": false,
+          "exoticBet": true,
+          "firstFour": true,
+          "quinella": true,
+          "homeTote": "TATTS",
+          "smallPool": false,
+          "boostAvailable": false,
+          "boostType": null,
+          "hasRideGuide": false,
+          "numberPlacings": 3,
+          "promoType": null,
+          "fixed": true
+        },
+        {
+          "id": 32719742,
+          "meetingId": 80051,
+          "meetingName": "Rockhampton",
+          "status": "Open",
+          "country": "AUS",
+          "state": "QLD",
+          "stream": -1,
+          "description": "Patlaw Security",
+          "outcomeTime": 1498043940,
+          "suspendTime": 1498043940,
+          "distance": "407m",
+          "raceNumber": 8,
+          "trackCondition": "Slow",
+          "weather": "Fine",
+          "type": "G",
+          "products": null,
+          "competitors": null,
+          "trackCode": null,
+          "resultsOutcome": null,
+          "coupledResultsOutcome": null,
+          "dividends": null,
+          "fvf": {
+            "product": "FixedWin",
+            "fixedPricings": true,
+            "favouriteCompetitorId": 127138571,
+            "favouriteOdds": 1.7,
+            "fieldOdds": 1.9
+          },
+          "isEasyGateRace": false,
+          "fixedOddsWin": true,
+          "fixedOddsPlace": true,
+          "eachWayFixed": true,
+          "eachWayTote": false,
+          "exoticBet": true,
+          "firstFour": true,
+          "quinella": true,
+          "homeTote": "TATTS",
+          "smallPool": false,
+          "boostAvailable": false,
+          "boostType": null,
+          "hasRideGuide": false,
+          "numberPlacings": 3,
+          "promoType": null,
+          "fixed": true
+        },
+        {
+          "id": 32719743,
+          "meetingId": 80051,
+          "meetingName": "Rockhampton",
+          "status": "Open",
+          "country": "AUS",
+          "state": "QLD",
+          "stream": -1,
+          "description": "Brook Group",
+          "outcomeTime": 1498045080,
+          "suspendTime": 1498045080,
+          "distance": "407m",
+          "raceNumber": 9,
+          "trackCondition": "Slow",
+          "weather": "Fine",
+          "type": "G",
+          "products": null,
+          "competitors": null,
+          "trackCode": null,
+          "resultsOutcome": null,
+          "coupledResultsOutcome": null,
+          "dividends": null,
+          "fvf": {
+            "product": "FixedWin",
+            "fixedPricings": true,
+            "favouriteCompetitorId": 127138579,
+            "favouriteOdds": 2.3,
+            "fieldOdds": 1.4
+          },
+          "isEasyGateRace": false,
+          "fixedOddsWin": true,
+          "fixedOddsPlace": true,
+          "eachWayFixed": true,
+          "eachWayTote": false,
+          "exoticBet": true,
+          "firstFour": true,
+          "quinella": true,
+          "homeTote": "TATTS",
+          "smallPool": false,
+          "boostAvailable": false,
+          "boostType": null,
+          "hasRideGuide": false,
+          "numberPlacings": 3,
+          "promoType": null,
+          "fixed": true
+        },
+        {
+          "id": 32719744,
+          "meetingId": 80051,
+          "meetingName": "Rockhampton",
+          "status": "Open",
+          "country": "AUS",
+          "state": "QLD",
+          "stream": -1,
+          "description": "Sky Channel",
+          "outcomeTime": 1498046280,
+          "suspendTime": 1498046280,
+          "distance": "407m",
+          "raceNumber": 10,
+          "trackCondition": "Slow",
+          "weather": "Fine",
+          "type": "G",
+          "products": null,
+          "competitors": null,
+          "trackCode": null,
+          "resultsOutcome": null,
+          "coupledResultsOutcome": null,
+          "dividends": null,
+          "fvf": {
+            "product": "FixedWin",
+            "fixedPricings": true,
+            "favouriteCompetitorId": 127138589,
+            "favouriteOdds": 3.3,
+            "fieldOdds": 1.18
+          },
+          "isEasyGateRace": false,
+          "fixedOddsWin": true,
+          "fixedOddsPlace": true,
+          "eachWayFixed": true,
+          "eachWayTote": false,
+          "exoticBet": true,
+          "firstFour": true,
+          "quinella": true,
+          "homeTote": "TATTS",
+          "smallPool": false,
+          "boostAvailable": false,
+          "boostType": null,
+          "hasRideGuide": false,
+          "numberPlacings": 2,
+          "promoType": null,
+          "fixed": true
+        }
+      ],
+      "id": 80051,
+      "date": 1498003201,
+      "country": "AUS",
+      "name": "Rockhampton",
+      "type": "G",
+      "quadLegs": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "earlyQuadLegs": [],
+      "international": false,
+      "liveVideoAvailable": false,
+      "hasRideGuide": false
+    },
+    "errors": null,
+    "hash": "3cb405aee2f08c657d16cf34d601fec4"
+  },
+  "race___getById___3c1fa17413a2892907e0c0936fa77eb7": {
+    "success": true,
+    "result": {
+      "id": 32719740,
+      "meetingId": 80051,
+      "meetingName": "Rockhampton",
+      "status": "Closed",
+      "country": "AUS",
+      "state": "QLD",
+      "stream": -1,
+      "description": "Garrards Horse & Hound",
+      "outcomeTime": 1498041540,
+      "suspendTime": 1498041582,
+      "distance": "407m",
+      "raceNumber": 6,
+      "trackCondition": "Slow",
+      "weather": "Fine",
+      "type": "G",
+      "products": [
+        "MidToteWin",
+        "MidTotePlace",
+        "ExoticBet",
+        "FixedWin",
+        "InternationalStartPrice",
+        "FixedPlace"
+      ],
+      "competitors": [
+        {
+          "id": 127138555,
+          "eliminated": false,
+          "lateScratching": false,
+          "barrier": 1,
+          "saddle": 1,
+          "form": "14622",
+          "jockeyName": "Rob Weeding",
+          "jockeyWeight": 0,
+          "horseName": "That's Super",
+          "products": {
+            "MidToteWin": 1,
+            "MidTotePlace": 1,
+            "ExoticBet": 1,
+            "FixedWin": 1,
+            "InternationalStartPrice": 1,
+            "FixedPlace": 1
+          },
+          "silkId": "",
+          "silkUrl": "",
+          "pyo": {},
+          "odds": {
+            "MidToteWin": 8.4,
+            "MidTotePlace": 3.3,
+            "ExoticBet": 1,
+            "FixedWin": 9.5,
+            "InternationalStartPrice": 9.5,
+            "FixedPlace": 3.1
+          },
+          "nswtab": 9.2,
+          "qldtab": 7.7,
+          "victab": 8.4,
+          "isMarketMover": false,
+          "competitorForm": {
+            "sex": "D",
+            "track": [
+              20,
+              4,
+              4,
+              2
+            ],
+            "career": "28 5-5-2",
+            "weight": "34.5kg",
+            "whelpingDate": "Feb 15",
+            "bestTime": "23.73",
+            "lastStart": "14622",
+            "wpPercentage": 42,
+            "gFullForm": {
+              "1": [
+                {
+                  "finish": "4th",
+                  "track": "ROCK",
+                  "class": "OPEN",
+                  "runDate": "08-Feb",
+                  "distance": "510",
+                  "winner": "Erasion",
+                  "timeRan": "30.2",
+                  "margin": "7.25",
+                  "barrier": 6,
+                  "weight": 34.3
+                }
+              ],
+              "2": [
+                {
+                  "finish": "6th",
+                  "track": "ROCK",
+                  "class": "OPEN",
+                  "runDate": "15-Feb",
+                  "distance": "510",
+                  "winner": "Erasion",
+                  "timeRan": "30.59",
+                  "margin": "10.75",
+                  "barrier": 7,
+                  "weight": 34.2
+                }
+              ],
+              "3": [
+                {
+                  "finish": "1st",
+                  "track": "ROCK",
+                  "class": "R\/W",
+                  "runDate": "22-Feb",
+                  "distance": "510",
+                  "winner": "Mysterious Rose",
+                  "timeRan": "30.1",
+                  "margin": "4.75",
+                  "barrier": 4,
+                  "weight": 34.1
+                }
+              ],
+              "4": [
+                {
+                  "finish": "4th",
+                  "track": "ROCK",
+                  "class": "5",
+                  "runDate": "01-Mar",
+                  "distance": "407",
+                  "winner": "Balakovo",
+                  "timeRan": "24.57",
+                  "margin": "8.25",
+                  "barrier": 4,
+                  "weight": 34.3
+                }
+              ],
+              "5": [
+                {
+                  "finish": "3rd",
+                  "track": "ROCK",
+                  "class": "4\/5",
+                  "runDate": "08-Mar",
+                  "distance": "407",
+                  "winner": "Making Waves",
+                  "timeRan": "24.25",
+                  "margin": "4.75",
+                  "barrier": 7,
+                  "weight": 34.5
+                }
+              ],
+              "6": [
+                {
+                  "finish": "1st",
+                  "track": "ROCK",
+                  "class": "5",
+                  "runDate": "22-Mar",
+                  "distance": "407",
+                  "winner": "Perez",
+                  "timeRan": "24.17",
+                  "margin": "0.031",
+                  "barrier": 5,
+                  "weight": 34.3
+                }
+              ],
+              "7": [
+                {
+                  "finish": "4th",
+                  "track": "BUND",
+                  "class": "5",
+                  "runDate": "08-Apr",
+                  "distance": "460",
+                  "winner": "Little Makril",
+                  "timeRan": "27.13",
+                  "margin": "6.5",
+                  "barrier": 7,
+                  "weight": 34
+                }
+              ],
+              "8": [
+                {
+                  "finish": "6th",
+                  "track": "IPSA",
+                  "class": "4\/5",
+                  "runDate": "29-Apr",
+                  "distance": "431",
+                  "winner": "Wildash Wildboy",
+                  "timeRan": "26.03",
+                  "margin": "11.5",
+                  "barrier": 5,
+                  "weight": 33.4
+                }
+              ],
+              "9": [
+                {
+                  "finish": "2nd",
+                  "track": "BUND",
+                  "class": "5",
+                  "runDate": "20-May",
+                  "distance": "460",
+                  "winner": "Blizzard Blitz",
+                  "timeRan": "27.5",
+                  "margin": "5.25",
+                  "barrier": 4,
+                  "weight": 34.2
+                }
+              ],
+              "10": [
+                {
+                  "finish": "2nd",
+                  "track": "ROCK",
+                  "class": "3\/4",
+                  "runDate": "14-Jun",
+                  "distance": "407",
+                  "winner": "Made That Way",
+                  "timeRan": "24.65",
+                  "margin": "2.25",
+                  "barrier": 5,
+                  "weight": 34.5
+                }
+              ]
+            },
+            "trainer": "ROB WEEDING - THE RANGE",
+            "owner": "ROB WEEDING",
+            "colour": "Black"
+          },
+          "coupledSaddle": null,
+          "coupledTo": null,
+          "coupledToCompetitorId": null,
+          "winOddsBoost": 0,
+          "boostAvailable": false,
+          "boostType": null,
+          "rideGuideExists": false,
+          "rideGuideThumbnail": null,
+          "tote": 0,
+          "homeToteOdds": 7.7,
+          "flucs": {
+            "1": "7",
+            "2": "7.5",
+            "3": "8",
+            "4": "9",
+            "5": "9.5",
+            "6": "10",
+            "7": "9.5",
+            "8": "10",
+            "9": "9.5"
+          },
+          "runnerComment": "Ran home fairly well to place first-up. Likes room to move so this draw isn't the best but if gets to the outside, he can place."
+        },
+        {
+          "id": 127138556,
+          "eliminated": false,
+          "lateScratching": false,
+          "barrier": 2,
+          "saddle": 2,
+          "form": "26864",
+          "jockeyName": "Lindsay Mccarthy",
+          "jockeyWeight": 0,
+          "horseName": "Not Today Mate",
+          "products": {
+            "MidToteWin": 1,
+            "MidTotePlace": 1,
+            "ExoticBet": 1,
+            "FixedWin": 1,
+            "InternationalStartPrice": 1,
+            "FixedPlace": 1
+          },
+          "silkId": "",
+          "silkUrl": "",
+          "pyo": {},
+          "odds": {
+            "MidToteWin": 6,
+            "MidTotePlace": 2.4,
+            "ExoticBet": 1,
+            "FixedWin": 5.5,
+            "InternationalStartPrice": 5.5,
+            "FixedPlace": 2
+          },
+          "nswtab": 6,
+          "qldtab": 6.5,
+          "victab": 5.4,
+          "isMarketMover": false,
+          "competitorForm": {
+            "sex": "D",
+            "track": [
+              13,
+              4,
+              1,
+              2
+            ],
+            "career": "57 20-8-9",
+            "weight": "32.4kg",
+            "whelpingDate": "Oct 13",
+            "bestTime": "23.47",
+            "lastStart": "26864",
+            "wpPercentage": 64,
+            "gFullForm": {
+              "1": [
+                {
+                  "finish": "1st",
+                  "track": "ROCK",
+                  "class": "4",
+                  "runDate": "16-Nov",
+                  "distance": "407",
+                  "winner": "All Red",
+                  "timeRan": "23.68",
+                  "margin": "1.25",
+                  "barrier": 8,
+                  "weight": 32.8
+                }
+              ],
+              "2": [
+                {
+                  "finish": "3rd",
+                  "track": "ROCK",
+                  "class": "3\/4",
+                  "runDate": "30-Nov",
+                  "distance": "407",
+                  "winner": "Focus And Speed",
+                  "timeRan": "23.83",
+                  "margin": "1.25",
+                  "barrier": 5,
+                  "weight": 33
+                }
+              ],
+              "3": [
+                {
+                  "finish": "1st",
+                  "track": "ROCK",
+                  "class": "4\/5",
+                  "runDate": "07-Dec",
+                  "distance": "407",
+                  "winner": "Fantastic Liam",
+                  "timeRan": "23.51",
+                  "margin": "1",
+                  "barrier": 1,
+                  "weight": 32.9
+                }
+              ],
+              "4": [
+                {
+                  "finish": "6th",
+                  "track": "ROCK",
+                  "class": "BT8",
+                  "runDate": "21-Dec",
+                  "distance": "407",
+                  "winner": "Zoe",
+                  "timeRan": "24.47",
+                  "margin": "10.25",
+                  "barrier": 3,
+                  "weight": 32.6
+                }
+              ],
+              "5": [
+                {
+                  "finish": "4th",
+                  "track": "ROCK",
+                  "class": "BT8",
+                  "runDate": "11-Jan",
+                  "distance": "407",
+                  "winner": "Little Ell Bee",
+                  "timeRan": "23.83",
+                  "margin": "2.25",
+                  "barrier": 6,
+                  "weight": 32.5
+                }
+              ],
+              "6": [
+                {
+                  "finish": "2nd",
+                  "track": "ROCK",
+                  "class": "BT8",
+                  "runDate": "18-Jan",
+                  "distance": "407",
+                  "winner": "Twelve Plus Two",
+                  "timeRan": "23.66",
+                  "margin": "0.125",
+                  "barrier": 5,
+                  "weight": 33.1
+                }
+              ],
+              "7": [
+                {
+                  "finish": "6th",
+                  "track": "ROCK",
+                  "class": "BT8",
+                  "runDate": "25-Jan",
+                  "distance": "407",
+                  "winner": "Second Gear",
+                  "timeRan": "24.2",
+                  "margin": "9.75",
+                  "barrier": 5,
+                  "weight": 33.6
+                }
+              ],
+              "8": [
+                {
+                  "finish": "8th",
+                  "track": "ROCK",
+                  "class": "3\/4",
+                  "runDate": "22-Feb",
+                  "distance": "407",
+                  "winner": "Oliver Benz",
+                  "timeRan": "31.86",
+                  "margin": "113.25",
+                  "barrier": 1,
+                  "weight": 32.7
+                }
+              ],
+              "9": [
+                {
+                  "finish": "6th",
+                  "track": "IPWE",
+                  "class": "5",
+                  "runDate": "24-May",
+                  "distance": "431",
+                  "winner": "Iconic Beach",
+                  "timeRan": "26.04",
+                  "margin": "16.25",
+                  "barrier": 4,
+                  "weight": 32.8
+                }
+              ],
+              "10": [
+                {
+                  "finish": "4th",
+                  "track": "ROCK",
+                  "class": "BT8",
+                  "runDate": "14-Jun",
+                  "distance": "407",
+                  "winner": "Twelve Plus Two",
+                  "timeRan": "24.08",
+                  "margin": "4.75",
+                  "barrier": 7,
+                  "weight": 32.4
+                }
+              ]
+            },
+            "trainer": "LINDSAY MCCARTHY - BUNDABERG",
+            "owner": "LINDSAY MCCARTHY",
+            "colour": "Black"
+          },
+          "coupledSaddle": null,
+          "coupledTo": null,
+          "coupledToCompetitorId": null,
+          "winOddsBoost": 0,
+          "boostAvailable": false,
+          "boostType": null,
+          "rideGuideExists": false,
+          "rideGuideThumbnail": null,
+          "tote": 0,
+          "homeToteOdds": 6.5,
+          "flucs": {
+            "1": "5.5",
+            "2": "5",
+            "3": "5.5"
+          },
+          "runnerComment": "Was spotted finding the line well in the Best 8 race is dropping in grade. Can give this a red hot go at each way odds."
+        },
+        {
+          "id": 127138557,
+          "eliminated": false,
+          "lateScratching": false,
+          "barrier": 3,
+          "saddle": 3,
+          "form": "52184",
+          "jockeyName": "Darren Taylor",
+          "jockeyWeight": 0,
+          "horseName": "Sparkling Angel",
+          "products": {
+            "MidToteWin": 1,
+            "MidTotePlace": 1,
+            "ExoticBet": 1,
+            "FixedWin": 1,
+            "InternationalStartPrice": 1,
+            "FixedPlace": 1
+          },
+          "silkId": "",
+          "silkUrl": "",
+          "pyo": {},
+          "odds": {
+            "MidToteWin": 13.5,
+            "MidTotePlace": 4.8,
+            "ExoticBet": 1,
+            "FixedWin": 13,
+            "InternationalStartPrice": 13,
+            "FixedPlace": 4
+          },
+          "nswtab": 11.5,
+          "qldtab": 18.3,
+          "victab": 13.5,
+          "isMarketMover": false,
+          "competitorForm": {
+            "sex": "B",
+            "track": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "career": "30 6-3-5",
+            "weight": "26.5kg",
+            "whelpingDate": "Mar 14",
+            "bestTime": "24.89",
+            "lastStart": "52184",
+            "wpPercentage": 46,
+            "gFullForm": {
+              "1": [
+                {
+                  "finish": "2nd",
+                  "track": "ARMD",
+                  "class": "5",
+                  "runDate": "11-Feb",
+                  "distance": "365",
+                  "winner": "Rice To Riches",
+                  "timeRan": "21.4",
+                  "margin": "1.5",
+                  "barrier": 1,
+                  "weight": 26.1
+                }
+              ],
+              "2": [
+                {
+                  "finish": "8th",
+                  "track": "GRDC",
+                  "class": "4\/5",
+                  "runDate": "11-Mar",
+                  "distance": "400",
+                  "winner": "Ziam",
+                  "timeRan": "23.9",
+                  "margin": "12.25",
+                  "barrier": 2,
+                  "weight": 26.3
+                }
+              ],
+              "3": [
+                {
+                  "finish": "3rd",
+                  "track": "APSU",
+                  "class": "4\/5",
+                  "runDate": "02-Apr",
+                  "distance": "395",
+                  "winner": "Lion Eagle",
+                  "timeRan": "23.12",
+                  "margin": "4.75",
+                  "barrier": 7,
+                  "weight": 26.4
+                }
+              ],
+              "4": [
+                {
+                  "finish": "4th",
+                  "track": "APSU",
+                  "class": "4",
+                  "runDate": "09-Apr",
+                  "distance": "395",
+                  "winner": "Tobias Rumble",
+                  "timeRan": "23.6",
+                  "margin": "9.75",
+                  "barrier": 1,
+                  "weight": 26.4
+                }
+              ],
+              "5": [
+                {
+                  "finish": "6th",
+                  "track": "APWE",
+                  "class": "5",
+                  "runDate": "12-Apr",
+                  "distance": "395",
+                  "winner": "Princess Light",
+                  "timeRan": "23.6",
+                  "margin": "11.5",
+                  "barrier": 6,
+                  "weight": 26.6
+                }
+              ],
+              "6": [
+                {
+                  "finish": "5th",
+                  "track": "APSU",
+                  "class": "3\/4",
+                  "runDate": "16-Apr",
+                  "distance": "395",
+                  "winner": "Miss Lynbra",
+                  "timeRan": "23.49",
+                  "margin": "5.5",
+                  "barrier": 4,
+                  "weight": 26.6
+                }
+              ],
+              "7": [
+                {
+                  "finish": "2nd",
+                  "track": "APWE",
+                  "class": "5",
+                  "runDate": "19-Apr",
+                  "distance": "395",
+                  "winner": "Harbour Drive",
+                  "timeRan": "22.84",
+                  "margin": "0.031",
+                  "barrier": 8,
+                  "weight": 26.7
+                }
+              ],
+              "8": [
+                {
+                  "finish": "1st",
+                  "track": "TVLE",
+                  "class": "5",
+                  "runDate": "16-May",
+                  "distance": "380",
+                  "winner": "Toes",
+                  "timeRan": "21.97",
+                  "margin": "3.75",
+                  "barrier": 6,
+                  "weight": 26.2
+                }
+              ],
+              "9": [
+                {
+                  "finish": "8th",
+                  "track": "TVLE",
+                  "class": "4",
+                  "runDate": "23-May",
+                  "distance": "380",
+                  "winner": "Maywyn Accolades",
+                  "timeRan": "22.93",
+                  "margin": "16.25",
+                  "barrier": 1,
+                  "weight": 26
+                }
+              ],
+              "10": [
+                {
+                  "finish": "4th",
+                  "track": "ROCK",
+                  "class": "3\/4",
+                  "runDate": "14-Jun",
+                  "distance": "407",
+                  "winner": "Made That Way",
+                  "timeRan": "24.89",
+                  "margin": "5.75",
+                  "barrier": 6,
+                  "weight": 26.5
+                }
+              ]
+            },
+            "trainer": "DARREN TAYLOR - BOULDERCOMBE",
+            "owner": "MARIE TAYLOR",
+            "colour": "Black"
+          },
+          "coupledSaddle": null,
+          "coupledTo": null,
+          "coupledToCompetitorId": null,
+          "winOddsBoost": 0,
+          "boostAvailable": false,
+          "boostType": null,
+          "rideGuideExists": false,
+          "rideGuideThumbnail": null,
+          "tote": 0,
+          "homeToteOdds": 18.3,
+          "flucs": {
+            "1": "10",
+            "2": "11",
+            "3": "12",
+            "4": "13",
+            "5": "12",
+            "6": "13",
+            "7": "12",
+            "8": "13"
+          },
+          "runnerComment": "Battled away well after finding early trouble Jun 14. Led all the way in Townsville three starts ago and could threaten if she jumps like that."
+        },
+        {
+          "id": 127138558,
+          "eliminated": false,
+          "lateScratching": false,
+          "barrier": 4,
+          "saddle": 4,
+          "form": "37461",
+          "jockeyName": "Albert Harker",
+          "jockeyWeight": 0,
+          "horseName": "Billy Congo",
+          "products": {
+            "MidToteWin": 1,
+            "MidTotePlace": 1,
+            "ExoticBet": 1,
+            "FixedWin": 1,
+            "InternationalStartPrice": 1,
+            "FixedPlace": 1
+          },
+          "silkId": "",
+          "silkUrl": "",
+          "pyo": {},
+          "odds": {
+            "MidToteWin": 9.6,
+            "MidTotePlace": 3.6,
+            "ExoticBet": 1,
+            "FixedWin": 9.5,
+            "InternationalStartPrice": 9.5,
+            "FixedPlace": 3.1
+          },
+          "nswtab": 9.6,
+          "qldtab": 10.4,
+          "victab": 9.4,
+          "isMarketMover": false,
+          "competitorForm": {
+            "sex": "D",
+            "track": [
+              34,
+              5,
+              5,
+              8
+            ],
+            "career": "52 8-6-10",
+            "weight": "33.5kg",
+            "whelpingDate": "Jan 14",
+            "bestTime": "23.58",
+            "lastStart": "37461",
+            "wpPercentage": 46,
+            "gFullForm": {
+              "1": [
+                {
+                  "finish": "2nd",
+                  "track": "ROCK",
+                  "class": "3\/4",
+                  "runDate": "30-Nov",
+                  "distance": "407",
+                  "winner": "Focus And Speed",
+                  "timeRan": "23.79",
+                  "margin": "0.75",
+                  "barrier": 1,
+                  "weight": 33.5
+                }
+              ],
+              "2": [
+                {
+                  "finish": "5th",
+                  "track": "ROCK",
+                  "class": "4\/5",
+                  "runDate": "07-Dec",
+                  "distance": "407",
+                  "winner": "Not Today Mate",
+                  "timeRan": "24.19",
+                  "margin": "9.75",
+                  "barrier": 4,
+                  "weight": 33.4
+                }
+              ],
+              "3": [
+                {
+                  "finish": "3rd",
+                  "track": "ROCK",
+                  "class": "4",
+                  "runDate": "28-Dec",
+                  "distance": "407",
+                  "winner": "All Red",
+                  "timeRan": "24.07",
+                  "margin": "6",
+                  "barrier": 1,
+                  "weight": 32.7
+                }
+              ],
+              "4": [
+                {
+                  "finish": "3rd",
+                  "track": "ROCK",
+                  "class": "4",
+                  "runDate": "11-Jan",
+                  "distance": "407",
+                  "winner": "Hurricane Hansi",
+                  "timeRan": "23.77",
+                  "margin": "1.5",
+                  "barrier": 8,
+                  "weight": 32.6
+                }
+              ],
+              "5": [
+                {
+                  "finish": "3rd",
+                  "track": "ROCK",
+                  "class": "3\/4",
+                  "runDate": "18-Jan",
+                  "distance": "407",
+                  "winner": "Second Gear",
+                  "timeRan": "23.97",
+                  "margin": "6.25",
+                  "barrier": 7,
+                  "weight": 32.5
+                }
+              ],
+              "6": [
+                {
+                  "finish": "3rd",
+                  "track": "ROCK",
+                  "class": "4",
+                  "runDate": "25-Jan",
+                  "distance": "407",
+                  "winner": "Erasion",
+                  "timeRan": "23.73",
+                  "margin": "6",
+                  "barrier": 5,
+                  "weight": 32.8
+                }
+              ],
+              "7": [
+                {
+                  "finish": "7th",
+                  "track": "ROCK",
+                  "class": "4",
+                  "runDate": "01-Feb",
+                  "distance": "407",
+                  "winner": "Black As Tar",
+                  "timeRan": "24.43",
+                  "margin": "10.25",
+                  "barrier": 4,
+                  "weight": 33
+                }
+              ],
+              "8": [
+                {
+                  "finish": "4th",
+                  "track": "ROCK",
+                  "class": "4\/5",
+                  "runDate": "08-Feb",
+                  "distance": "407",
+                  "winner": "Oliver Benz",
+                  "timeRan": "24",
+                  "margin": "5.5",
+                  "barrier": 6,
+                  "weight": 33.1
+                }
+              ],
+              "9": [
+                {
+                  "finish": "6th",
+                  "track": "ROCK",
+                  "class": "4",
+                  "runDate": "15-Feb",
+                  "distance": "407",
+                  "winner": "Made That Way",
+                  "timeRan": "24.71",
+                  "margin": "10.5",
+                  "barrier": 5,
+                  "weight": 33.1
+                }
+              ],
+              "10": [
+                {
+                  "finish": "1st",
+                  "track": "ROCK",
+                  "class": "5",
+                  "runDate": "14-Jun",
+                  "distance": "407",
+                  "winner": "Sudoku Doll",
+                  "timeRan": "23.91",
+                  "margin": "3.25",
+                  "barrier": 4,
+                  "weight": 33.5
+                }
+              ]
+            },
+            "trainer": "ALBERT HARKER - RIDGELANDS",
+            "owner": "ALBERT HARKER",
+            "colour": "Black"
+          },
+          "coupledSaddle": null,
+          "coupledTo": null,
+          "coupledToCompetitorId": null,
+          "winOddsBoost": 0,
+          "boostAvailable": false,
+          "boostType": null,
+          "rideGuideExists": false,
+          "rideGuideThumbnail": null,
+          "tote": 0,
+          "homeToteOdds": 10.4,
+          "flucs": {
+            "1": "8.5",
+            "2": "7.5",
+            "3": "8",
+            "4": "8.5",
+            "5": "8",
+            "6": "8.5",
+            "7": "9",
+            "8": "9.5"
+          },
+          "runnerComment": "Showed good speed first-up when much too good for an easier line-up. Can go back-to-back."
+        },
+        {
+          "id": 127138559,
+          "eliminated": false,
+          "lateScratching": false,
+          "barrier": 5,
+          "saddle": 5,
+          "form": "64313",
+          "jockeyName": "Kaye Taylor",
+          "jockeyWeight": 0,
+          "horseName": "Are Jay Duree",
+          "products": {
+            "MidToteWin": 1,
+            "MidTotePlace": 1,
+            "ExoticBet": 1,
+            "FixedWin": 1,
+            "InternationalStartPrice": 1,
+            "FixedPlace": 1
+          },
+          "silkId": "",
+          "silkUrl": "",
+          "pyo": {},
+          "odds": {
+            "MidToteWin": 14.1,
+            "MidTotePlace": 4.8,
+            "ExoticBet": 1,
+            "FixedWin": 14,
+            "InternationalStartPrice": 14,
+            "FixedPlace": 4.3
+          },
+          "nswtab": 14.5,
+          "qldtab": 14.1,
+          "victab": 14,
+          "isMarketMover": false,
+          "competitorForm": {
+            "sex": "B",
+            "track": [
+              16,
+              5,
+              0,
+              4
+            ],
+            "career": "30 6-4-7",
+            "weight": "26.8kg",
+            "whelpingDate": "Nov 14",
+            "bestTime": "23.36",
+            "lastStart": "64313",
+            "wpPercentage": 56,
+            "gFullForm": {
+              "1": [
+                {
+                  "finish": "6th",
+                  "track": "ROCK",
+                  "class": "4",
+                  "runDate": "22-Mar",
+                  "distance": "407",
+                  "winner": "Usurper",
+                  "timeRan": "24.59",
+                  "margin": "11.5",
+                  "barrier": 7,
+                  "weight": 28.3
+                }
+              ],
+              "2": [
+                {
+                  "finish": "5th",
+                  "track": "BUND",
+                  "class": "4\/5",
+                  "runDate": "25-Mar",
+                  "distance": "550",
+                  "winner": "Made That Way",
+                  "timeRan": "33.84",
+                  "margin": "20.75",
+                  "barrier": 2,
+                  "weight": 28.5
+                }
+              ],
+              "3": [
+                {
+                  "finish": "2nd",
+                  "track": "BUND",
+                  "class": "5",
+                  "runDate": "01-Apr",
+                  "distance": "550",
+                  "winner": "Erasion",
+                  "timeRan": "32.46",
+                  "margin": "4.5",
+                  "barrier": 7,
+                  "weight": 28.5
+                }
+              ],
+              "4": [
+                {
+                  "finish": "2nd",
+                  "track": "BUND",
+                  "class": "5",
+                  "runDate": "08-Apr",
+                  "distance": "460",
+                  "winner": "Social",
+                  "timeRan": "27.09",
+                  "margin": "6",
+                  "barrier": 5,
+                  "weight": 28.3
+                }
+              ],
+              "5": [
+                {
+                  "finish": "8th",
+                  "track": "TVLE",
+                  "class": "5",
+                  "runDate": "18-Apr",
+                  "distance": "498",
+                  "winner": "Universal One",
+                  "timeRan": "30.99",
+                  "margin": "26.25",
+                  "barrier": 4,
+                  "weight": 27.6
+                }
+              ],
+              "6": [
+                {
+                  "finish": "6th",
+                  "track": "APWE",
+                  "class": "5",
+                  "runDate": "03-May",
+                  "distance": "395",
+                  "winner": "John Said This",
+                  "timeRan": "23.32",
+                  "margin": "5.5",
+                  "barrier": 1,
+                  "weight": 27.5
+                }
+              ],
+              "7": [
+                {
+                  "finish": "4th",
+                  "track": "TVLE",
+                  "class": "OPEN",
+                  "runDate": "16-May",
+                  "distance": "380",
+                  "winner": "Back Street Boy",
+                  "timeRan": "22.48",
+                  "margin": "7.5",
+                  "barrier": 2,
+                  "weight": 27
+                }
+              ],
+              "8": [
+                {
+                  "finish": "3rd",
+                  "track": "TVLE",
+                  "class": "5\/M",
+                  "runDate": "23-May",
+                  "distance": "498",
+                  "winner": "Queen Of Cawdor",
+                  "timeRan": "29.22",
+                  "margin": "1",
+                  "barrier": 1,
+                  "weight": 26.8
+                }
+              ],
+              "9": [
+                {
+                  "finish": "1st",
+                  "track": "TVLE",
+                  "class": "4",
+                  "runDate": "30-May",
+                  "distance": "380",
+                  "winner": "From The Tap",
+                  "timeRan": "22.02",
+                  "margin": "1",
+                  "barrier": 3,
+                  "weight": 26.8
+                }
+              ],
+              "10": [
+                {
+                  "finish": "3rd",
+                  "track": "TVLE",
+                  "class": "5",
+                  "runDate": "06-Jun",
+                  "distance": "498",
+                  "winner": "Perez",
+                  "timeRan": "29.1",
+                  "margin": "1.5",
+                  "barrier": 7,
+                  "weight": 26.8
+                }
+              ]
+            },
+            "trainer": "KAYE TAYLOR - ROCKHAMPTON",
+            "owner": "JEAN DRUERY",
+            "colour": "Black"
+          },
+          "coupledSaddle": null,
+          "coupledTo": null,
+          "coupledToCompetitorId": null,
+          "winOddsBoost": 0,
+          "boostAvailable": false,
+          "boostType": null,
+          "rideGuideExists": false,
+          "rideGuideThumbnail": null,
+          "tote": 0,
+          "homeToteOdds": 14.1,
+          "flucs": {
+            "1": "14",
+            "2": "15",
+            "3": "16",
+            "4": "15",
+            "5": "14",
+            "6": "15",
+            "7": "14"
+          },
+          "runnerComment": "Racing well at Townsville with a win and a couple of placings from her last three. Awkward draw to contend with is the biggest concern."
+        },
+        {
+          "id": 127138560,
+          "eliminated": false,
+          "lateScratching": false,
+          "barrier": 6,
+          "saddle": 6,
+          "form": "3353X",
+          "jockeyName": "Neville Jackson",
+          "jockeyWeight": 0,
+          "horseName": "All Red",
+          "products": {
+            "MidToteWin": 1,
+            "MidTotePlace": 1,
+            "ExoticBet": 1,
+            "FixedWin": 1,
+            "InternationalStartPrice": 1,
+            "FixedPlace": 1
+          },
+          "silkId": "",
+          "silkUrl": "",
+          "pyo": {},
+          "odds": {
+            "MidToteWin": 19.5,
+            "MidTotePlace": 5.8,
+            "ExoticBet": 1,
+            "FixedWin": 21,
+            "InternationalStartPrice": 21,
+            "FixedPlace": 6.2
+          },
+          "nswtab": 18,
+          "qldtab": 21,
+          "victab": 19.5,
+          "isMarketMover": false,
+          "competitorForm": {
+            "sex": "D",
+            "track": [
+              39,
+              6,
+              6,
+              9
+            ],
+            "career": "41 6-6-10",
+            "weight": "30.4kg",
+            "whelpingDate": "Jul 14",
+            "bestTime": "23.64",
+            "lastStart": "3353X",
+            "wpPercentage": 53,
+            "gFullForm": {
+              "1": [
+                {
+                  "finish": "4th",
+                  "track": "ROCK",
+                  "class": "BT8",
+                  "runDate": "25-Jan",
+                  "distance": "407",
+                  "winner": "Second Gear",
+                  "timeRan": "23.98",
+                  "margin": "6.5",
+                  "barrier": 2,
+                  "weight": 30
+                }
+              ],
+              "2": [
+                {
+                  "finish": "5th",
+                  "track": "ROCK",
+                  "class": "BT8",
+                  "runDate": "01-Feb",
+                  "distance": "407",
+                  "winner": "Twelve Plus Two",
+                  "timeRan": "24.07",
+                  "margin": "7.5",
+                  "barrier": 4,
+                  "weight": 30.1
+                }
+              ],
+              "3": [
+                {
+                  "finish": "2nd",
+                  "track": "ROCK",
+                  "class": "4\/5",
+                  "runDate": "08-Feb",
+                  "distance": "407",
+                  "winner": "Oliver Benz",
+                  "timeRan": "23.73",
+                  "margin": "1.75",
+                  "barrier": 4,
+                  "weight": 30.1
+                }
+              ],
+              "4": [
+                {
+                  "finish": "6th",
+                  "track": "ROCK",
+                  "class": "3\/4",
+                  "runDate": "15-Feb",
+                  "distance": "407",
+                  "winner": "Perfect Mum",
+                  "timeRan": "24.23",
+                  "margin": "9",
+                  "barrier": 3,
+                  "weight": 30.3
+                }
+              ],
+              "5": [
+                {
+                  "finish": "3rd",
+                  "track": "ROCK",
+                  "class": "3\/4",
+                  "runDate": "22-Feb",
+                  "distance": "407",
+                  "winner": "Oliver Benz",
+                  "timeRan": "24.37",
+                  "margin": "6.25",
+                  "barrier": 8,
+                  "weight": 30.1
+                }
+              ],
+              "6": [
+                {
+                  "finish": "3rd",
+                  "track": "ROCK",
+                  "class": "3\/4",
+                  "runDate": "01-Mar",
+                  "distance": "407",
+                  "winner": "Social",
+                  "timeRan": "23.95",
+                  "margin": "2",
+                  "barrier": 4,
+                  "weight": 30.2
+                }
+              ],
+              "7": [
+                {
+                  "finish": "3rd",
+                  "track": "ROCK",
+                  "class": "4",
+                  "runDate": "08-Mar",
+                  "distance": "407",
+                  "winner": "Usurper",
+                  "timeRan": "24.13",
+                  "margin": "7",
+                  "barrier": 3,
+                  "weight": 30.4
+                }
+              ],
+              "8": [
+                {
+                  "finish": "5th",
+                  "track": "ROCK",
+                  "class": "4",
+                  "runDate": "22-Mar",
+                  "distance": "407",
+                  "winner": "Usurper",
+                  "timeRan": "24.49",
+                  "margin": "10",
+                  "barrier": 5,
+                  "weight": 30.3
+                }
+              ],
+              "9": [
+                {
+                  "finish": "3rd",
+                  "track": "TVLE",
+                  "class": "4",
+                  "runDate": "11-Apr",
+                  "distance": "380",
+                  "winner": "Rambo Ritson",
+                  "timeRan": "22.29",
+                  "margin": "4",
+                  "barrier": 8,
+                  "weight": 30
+                }
+              ],
+              "10": [
+                {
+                  "finish": "FTF",
+                  "track": "TVLE",
+                  "class": "4",
+                  "runDate": "18-Apr",
+                  "distance": "380",
+                  "winner": "Miss Lardie Da",
+                  "timeRan": "0",
+                  "margin": "0",
+                  "barrier": 1,
+                  "weight": 30.4
+                }
+              ]
+            },
+            "trainer": "NEVILLE JACKSON - MACKAY",
+            "owner": "OTHER GUYS - MGR T KINNEAR",
+            "colour": "Black"
+          },
+          "coupledSaddle": null,
+          "coupledTo": null,
+          "coupledToCompetitorId": null,
+          "winOddsBoost": 0,
+          "boostAvailable": false,
+          "boostType": null,
+          "rideGuideExists": false,
+          "rideGuideThumbnail": null,
+          "tote": 0,
+          "homeToteOdds": 21,
+          "flucs": {
+            "1": "17",
+            "2": "18",
+            "3": "19",
+            "4": "20",
+            "5": "21"
+          },
+          "runnerComment": "Went amiss Apr 18 and good to see him back at the racetrack. Capable from all boxes but prefer to see what he does first-up."
+        },
+        {
+          "id": 127138561,
+          "eliminated": true,
+          "lateScratching": false,
+          "barrier": 7,
+          "saddle": 7,
+          "form": "57151",
+          "jockeyName": "Christine Pollard",
+          "jockeyWeight": 0,
+          "horseName": "Charbellamia",
+          "products": {
+            "MidToteWin": 1,
+            "MidTotePlace": 1,
+            "ExoticBet": 1,
+            "InternationalStartPrice": 1
+          },
+          "silkId": "",
+          "silkUrl": "",
+          "pyo": {},
+          "odds": {
+            "MidToteWin": 0,
+            "MidTotePlace": 0,
+            "ExoticBet": 1,
+            "InternationalStartPrice": 0
+          },
+          "nswtab": 0,
+          "qldtab": 0,
+          "victab": 0,
+          "isMarketMover": false,
+          "competitorForm": {
+            "sex": "B",
+            "track": [
+              11,
+              4,
+              1,
+              1
+            ],
+            "career": "11 4-1-1",
+            "weight": "28.7kg",
+            "whelpingDate": "May 14",
+            "bestTime": "23.78",
+            "lastStart": "57151",
+            "wpPercentage": 54,
+            "gFullForm": {
+              "1": [
+                {
+                  "finish": "2nd",
+                  "track": "ROCK",
+                  "class": "M",
+                  "runDate": "17-Aug",
+                  "distance": "407",
+                  "winner": "Are Jay Duree",
+                  "timeRan": "23.88",
+                  "margin": "6.25",
+                  "barrier": 8,
+                  "weight": 27.9
+                }
+              ],
+              "2": [
+                {
+                  "finish": "1st",
+                  "track": "ROCK",
+                  "class": "M",
+                  "runDate": "24-Aug",
+                  "distance": "407",
+                  "winner": "Fantastic Liam",
+                  "timeRan": "23.78",
+                  "margin": "1.75",
+                  "barrier": 3,
+                  "weight": 27.6
+                }
+              ],
+              "3": [
+                {
+                  "finish": "5th",
+                  "track": "ROCK",
+                  "class": "NOV",
+                  "runDate": "14-Sep",
+                  "distance": "407",
+                  "winner": "Mystic Kahn",
+                  "timeRan": "24.49",
+                  "margin": "3.25",
+                  "barrier": 5,
+                  "weight": 27.8
+                }
+              ],
+              "4": [
+                {
+                  "finish": "1st",
+                  "track": "ROCK",
+                  "class": "NOV",
+                  "runDate": "21-Sep",
+                  "distance": "407",
+                  "winner": "Tax Loophole",
+                  "timeRan": "24.22",
+                  "margin": "0.125",
+                  "barrier": 6,
+                  "weight": 28
+                }
+              ],
+              "5": [
+                {
+                  "finish": "3rd",
+                  "track": "ROCK",
+                  "class": "5",
+                  "runDate": "28-Sep",
+                  "distance": "407",
+                  "winner": "Fancy Paddy",
+                  "timeRan": "24.25",
+                  "margin": "3.25",
+                  "barrier": 4,
+                  "weight": 27.9
+                }
+              ],
+              "6": [
+                {
+                  "finish": "5th",
+                  "track": "ROCK",
+                  "class": "5",
+                  "runDate": "12-Oct",
+                  "distance": "407",
+                  "winner": "Excitable Angel",
+                  "timeRan": "24.3",
+                  "margin": "5.75",
+                  "barrier": 6,
+                  "weight": 27.8
+                }
+              ],
+              "7": [
+                {
+                  "finish": "7th",
+                  "track": "ROCK",
+                  "class": "5",
+                  "runDate": "19-Oct",
+                  "distance": "407",
+                  "winner": "Are Jay Duree",
+                  "timeRan": "25.1",
+                  "margin": "22.25",
+                  "barrier": 2,
+                  "weight": 28.2
+                }
+              ],
+              "8": [
+                {
+                  "finish": "1st",
+                  "track": "ROCK",
+                  "class": "5",
+                  "runDate": "15-Feb",
+                  "distance": "407",
+                  "winner": "Hara's Heart",
+                  "timeRan": "23.95",
+                  "margin": "4.25",
+                  "barrier": 2,
+                  "weight": 28.4
+                }
+              ],
+              "9": [
+                {
+                  "finish": "5th",
+                  "track": "ROCK",
+                  "class": "5",
+                  "runDate": "22-Feb",
+                  "distance": "407",
+                  "winner": "Hong Kong Magri",
+                  "timeRan": "24.68",
+                  "margin": "13.25",
+                  "barrier": 7,
+                  "weight": 28.7
+                }
+              ],
+              "10": [
+                {
+                  "finish": "1st",
+                  "track": "ROCK",
+                  "class": "5",
+                  "runDate": "14-Jun",
+                  "distance": "407",
+                  "winner": "Sincerely",
+                  "timeRan": "24.06",
+                  "margin": "1.25",
+                  "barrier": 3,
+                  "weight": 28.7
+                }
+              ]
+            },
+            "trainer": "CHRISTINE POLLARD - EMERALD",
+            "owner": "POLLARD - MGR C POLLARD",
+            "colour": "Black"
+          },
+          "coupledSaddle": null,
+          "coupledTo": null,
+          "coupledToCompetitorId": null,
+          "winOddsBoost": 0,
+          "boostAvailable": false,
+          "boostType": null,
+          "rideGuideExists": false,
+          "rideGuideThumbnail": null,
+          "tote": 0,
+          "homeToteOdds": 0,
+          "runnerComment": "Impressed when leading all the way first-up from a spell. Don't know if she can get across from this box which is the risk."
+        },
+        {
+          "id": 127138562,
+          "eliminated": false,
+          "lateScratching": false,
+          "barrier": 8,
+          "saddle": 8,
+          "form": "21511",
+          "jockeyName": "Dallas Beckett",
+          "jockeyWeight": 0,
+          "horseName": "Hong Kong Magri",
+          "products": {
+            "MidToteWin": 1,
+            "MidTotePlace": 1,
+            "ExoticBet": 1,
+            "FixedWin": 1,
+            "InternationalStartPrice": 1,
+            "FixedPlace": 1
+          },
+          "silkId": "",
+          "silkUrl": "",
+          "pyo": {},
+          "odds": {
+            "MidToteWin": 1.6,
+            "MidTotePlace": 1.2,
+            "ExoticBet": 1,
+            "FixedWin": 1.6,
+            "InternationalStartPrice": 1.6,
+            "FixedPlace": 1.07
+          },
+          "nswtab": 1.6,
+          "qldtab": 1.5,
+          "victab": 1.6,
+          "isMarketMover": false,
+          "competitorForm": {
+            "sex": "D",
+            "track": [
+              8,
+              4,
+              3,
+              0
+            ],
+            "career": "13 7-4-0",
+            "weight": "32.7kg",
+            "whelpingDate": "May 15",
+            "bestTime": "23.6",
+            "lastStart": "21511",
+            "wpPercentage": 84,
+            "gFullForm": {
+              "1": [
+                {
+                  "finish": "1st",
+                  "track": "ROCK",
+                  "class": "NOV",
+                  "runDate": "08-Feb",
+                  "distance": "407",
+                  "winner": "Tiny Viking",
+                  "timeRan": "23.66",
+                  "margin": "9",
+                  "barrier": 4,
+                  "weight": 31.2
+                }
+              ],
+              "2": [
+                {
+                  "finish": "1st",
+                  "track": "ROCK",
+                  "class": "5",
+                  "runDate": "15-Feb",
+                  "distance": "407",
+                  "winner": "My Kids Tuition",
+                  "timeRan": "23.6",
+                  "margin": "3",
+                  "barrier": 5,
+                  "weight": 31.2
+                }
+              ],
+              "3": [
+                {
+                  "finish": "1st",
+                  "track": "ROCK",
+                  "class": "5",
+                  "runDate": "22-Feb",
+                  "distance": "407",
+                  "winner": "Elite Marj",
+                  "timeRan": "23.75",
+                  "margin": "6.25",
+                  "barrier": 2,
+                  "weight": 31.7
+                }
+              ],
+              "4": [
+                {
+                  "finish": "2nd",
+                  "track": "ROCK",
+                  "class": "4\/5",
+                  "runDate": "01-Mar",
+                  "distance": "407",
+                  "winner": "Fantastic Liam",
+                  "timeRan": "24.02",
+                  "margin": "2",
+                  "barrier": 2,
+                  "weight": 32.2
+                }
+              ],
+              "5": [
+                {
+                  "finish": "6th",
+                  "track": "ROCK",
+                  "class": "3\/4",
+                  "runDate": "08-Mar",
+                  "distance": "407",
+                  "winner": "Harry Harks",
+                  "timeRan": "24.85",
+                  "margin": "12",
+                  "barrier": 4,
+                  "weight": 32.2
+                }
+              ],
+              "6": [
+                {
+                  "finish": "2nd",
+                  "track": "ROCK",
+                  "class": "4",
+                  "runDate": "22-Mar",
+                  "distance": "407",
+                  "winner": "Velocity Chris",
+                  "timeRan": "24.21",
+                  "margin": "1",
+                  "barrier": 2,
+                  "weight": 32.2
+                }
+              ],
+              "7": [
+                {
+                  "finish": "1st",
+                  "track": "BUND",
+                  "class": "5",
+                  "runDate": "08-Apr",
+                  "distance": "460",
+                  "winner": "Nedgo Heather",
+                  "timeRan": "26.88",
+                  "margin": "5.25",
+                  "barrier": 1,
+                  "weight": 32.1
+                }
+              ],
+              "8": [
+                {
+                  "finish": "5th",
+                  "track": "BUND",
+                  "class": "5",
+                  "runDate": "15-Apr",
+                  "distance": "460",
+                  "winner": "Bet You Will",
+                  "timeRan": "27.77",
+                  "margin": "8.5",
+                  "barrier": 7,
+                  "weight": 32.9
+                }
+              ],
+              "9": [
+                {
+                  "finish": "1st",
+                  "track": "BUND",
+                  "class": "5",
+                  "runDate": "27-May",
+                  "distance": "460",
+                  "winner": "Pure Lee Cruisy",
+                  "timeRan": "26.55",
+                  "margin": "7.75",
+                  "barrier": 2,
+                  "weight": 32.6
+                }
+              ],
+              "10": [
+                {
+                  "finish": "1st",
+                  "track": "ROCK",
+                  "class": "4\/5",
+                  "runDate": "14-Jun",
+                  "distance": "407",
+                  "winner": "Korong",
+                  "timeRan": "23.68",
+                  "margin": "5.75",
+                  "barrier": 4,
+                  "weight": 32.7
+                }
+              ]
+            },
+            "trainer": "DALLAS BECKETT - NORTH ROCKHAMPTON",
+            "owner": "DALLAS BECKETT",
+            "colour": "Black"
+          },
+          "coupledSaddle": null,
+          "coupledTo": null,
+          "coupledToCompetitorId": null,
+          "winOddsBoost": 0,
+          "boostAvailable": false,
+          "boostType": null,
+          "rideGuideExists": false,
+          "rideGuideThumbnail": null,
+          "tote": 0,
+          "homeToteOdds": 1.5,
+          "flucs": {
+            "1": "1.6",
+            "2": "1.7",
+            "3": "1.65",
+            "4": "1.7",
+            "5": "1.65",
+            "6": "1.7",
+            "7": "1.75",
+            "8": "1.7",
+            "9": "1.75",
+            "10": "1.7",
+            "11": "1.75",
+            "12": "1.7",
+            "13": "1.65",
+            "14": "1.7",
+            "15": "1.65",
+            "16": "1.6"
+          },
+          "runnerComment": "Looked the best bet of the night and that's how it panned out in his devastating 23.68 victory Jun 14. Not as well drawn but only needs a clear run to win."
+        }
+      ],
+      "trackCode": null,
+      "resultsOutcome": null,
+      "coupledResultsOutcome": null,
+      "raceComments": "HONG KONG MAGRI (8) looked the best bet of the night and that's how it panned out in his devastating 23.68 victory Jun 14. Not as well drawn but only needs a clear run over to win. NOT TODAY MATE (2) was spotted finding the line well in the Best 8 race is dropping in grade. BILLY CONGO (4) showed good speed first-up and can go back-to-back.",
+      "dividends": [],
+      "fvf": {
+        "product": "FixedWin",
+        "fixedPricings": true,
+        "favouriteCompetitorId": 127138562,
+        "favouriteOdds": 1.6,
+        "fieldOdds": 2
+      },
+      "isEasyGateRace": false,
+      "fixedOddsWin": true,
+      "fixedOddsPlace": true,
+      "eachWayFixed": true,
+      "eachWayTote": true,
+      "exoticBet": true,
+      "firstFour": true,
+      "quinella": true,
+      "homeTote": "TATTS",
+      "smallPool": false,
+      "boostAvailable": false,
+      "boostType": null,
+      "hasRideGuide": false,
+      "numberPlacings": 2,
+      "promoType": null,
+      "fixed": true
+    },
+    "errors": null,
+    "hash": "c72f5a3aa8021aadb4e3a4f6be7da6ed"
+  }
+}
