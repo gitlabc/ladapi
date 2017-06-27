@@ -11,6 +11,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+        $meeting = new \App\Meeting();
+        $event = new \App\Event();
+        $competitor = new \App\Competitor();
+
+        
     }
 }

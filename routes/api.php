@@ -17,8 +17,8 @@ use Illuminate\Http\Request;
     // return $request->user();
 // });
 
-Route::group(['prefix' => 'api/v1'], function () {
-    Route::post('next5', [
+Route::group(['prefix' => 'v1'], function () {
+    Route::get('next5', [
         'uses' => 'RaceController@nextFive',
     ]);
 });

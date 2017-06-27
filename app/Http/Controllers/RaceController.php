@@ -14,23 +14,43 @@ class RaceController extends Controller
      */
     public function nextFive(Request $request)
     {
-        $meeting_hash = $request->input('meeting_hash');
+        $meeting = $request->input('meeting');
         $event_id = $request->input('event_id');
+
+        $meetings = null;
+        $competitors = null;
+        if ( $meeting == 1) {
+            $meetings = [
+                'type' => 'meetings',
+                'data' => [],
+                'hash' => '',
+            ];
+        }
+
+        if($event_id !== null){
+            $competitors = [
+                'type' => 'competitors',
+                'data' => [],
+                'hash' => '',
+            ];
+        }
 
         // $meeting = Meeting::findOrFail($meeting_id);
         // $user = User::findOrFail($user_id);
-        if ($meeting->users()->where('users.id', $user->id)->first()) {
+        // if ($meeting->users()->where('users.id', $user->id)->first()) {
             $message = [
-                'msg' => 'User is already registered for this meeting',
-                'user' => $user,
-                'meeting' => $meeting,
-                'unregister' => [
-                    'href' => 'api/v1/meeting/registration/'.$meeting->id,
-                    'method' => 'DELETE',
-                ],
+                'status' => 'succ',
+                'results' => [],
             ];
 
-            return response()->json($message, 404);
-        }
+            if($meetings != null){
+                $message['results'][] = $meetings;
+            }
+            if($competitors != null){
+                $message['results'][] = $competitors;
+            }
+
+            return response()->json($message, 200);
+        // }
     }
 }
