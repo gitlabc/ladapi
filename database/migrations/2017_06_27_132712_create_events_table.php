@@ -20,7 +20,8 @@ class CreateEventsTable extends Migration
             $table->integer('meeting_id');
             $table->tinyInteger('race_num');
             $table->string('description');
-            $table->dateTime('outcome');
+            $table->dateTime('outcome_date');
+            $table->integer('outcome');
             $table->string('status');
         });
     }

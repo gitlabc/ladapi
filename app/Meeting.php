@@ -1,5 +1,4 @@
 <?php
-
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
@@ -7,10 +6,15 @@ use Illuminate\Database\Eloquent\Model;
 class Meeting extends Model
 {
     protected $fillable = [
-        'name', 'type', 'date','country'
+        'name', 'type', 'date', 'country'
     ];
- 
-    public function events(){
-        return $this->hasMany('App\Event');
+    protected $hidden = ['created_at', 'updated_at'];
+
+    public $incrementing = false;
+    public $timestamps = true;
+
+    public function events()
+    {
+        return $this->hasMany('App\Event', 'meeting_id', 'id');
     }
 }

@@ -1,11 +1,18 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Lad\Contracts\Repository;
+
 class RaceController extends Controller
 {
+    protected $repository;
+
+    public function __construct(Repository $rep)
+    {
+        $this->repository = $rep;
+    }
     /**
      * Store a newly created resource in storage.
      *
@@ -14,43 +21,11 @@ class RaceController extends Controller
      */
     public function nextFive(Request $request)
     {
-        $meeting = $request->input('meeting');
-        $event_id = $request->input('event_id');
+        $meeting = $request->input('meeting') ?? '';
+        $event_id = $request->input('event_id') ?? '';
 
-        $meetings = null;
-        $competitors = null;
-        if ( $meeting == 1) {
-            $meetings = [
-                'type' => 'meetings',
-                'data' => [],
-                'hash' => '',
-            ];
-        }
+        $message = $this->repository->getMessage($meeting, $event_id);
 
-        if($event_id !== null){
-            $competitors = [
-                'type' => 'competitors',
-                'data' => [],
-                'hash' => '',
-            ];
-        }
-
-        // $meeting = Meeting::findOrFail($meeting_id);
-        // $user = User::findOrFail($user_id);
-        // if ($meeting->users()->where('users.id', $user->id)->first()) {
-            $message = [
-                'status' => 'succ',
-                'results' => [],
-            ];
-
-            if($meetings != null){
-                $message['results'][] = $meetings;
-            }
-            if($competitors != null){
-                $message['results'][] = $competitors;
-            }
-
-            return response()->json($message, 200);
-        // }
+        return response()->json($message, 200);
     }
 }

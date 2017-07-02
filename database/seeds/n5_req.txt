@@ -29,5 +29,7 @@ d7517
 24189
 ce
 
+MD5 32bits hash
+
 
 3f667e5e3e3369db4953c32b4f16f1ff -> _r: 3f667e5e3e3369db4953c32b4f16f1ff new 1a0531fcfb8efff10bc8fd825d74de52
