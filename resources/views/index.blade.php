@@ -1,0 +1,1 @@
+../../ladclient/build/index.html
