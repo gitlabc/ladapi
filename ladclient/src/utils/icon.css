@@ -1,0 +1,29 @@
+.bg {
+    background-image: url('./racing-icon-sprite.png')!important;
+    background-repeat: no-repeat!important;
+    background-position-x: 50%!important;
+}
+
+.T1 {
+    background-position-y: -403px!important;
+}
+
+.G1 {
+    background-position-y: -582px!important;
+}
+
+.H1 {
+    background-position-y: -493px!important;
+}
+
+.T2 {
+    background-position-y: 8px!important;
+}
+
+.G2 {
+    background-position-y: -171px!important;
+}
+
+.H2 {
+    background-position-y: -83px!important;
+}

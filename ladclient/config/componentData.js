@@ -1,0 +1,1 @@
+module.exports = ["An error occurred while attempting to generate metadata for RaceListItem. Error: ENOENT: no such file or directory, open '/Users/gavin/workspace/ladapi/ladclient/src/components/RaceListItem/RaceListItem.js'"]

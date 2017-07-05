@@ -24,7 +24,7 @@ $factory->define(App\Meeting::class, function (Faker\Generator $faker) {
 });
 
 $factory->define(App\Event::class, function (Faker\Generator $faker) {
-    $outcomeDate = $faker->dateTimeBetween($startDate = '-10 minutes', $endDate = '+50 minutes', $timezone = date_default_timezone_get());
+    $outcomeDate = $faker->dateTimeBetween($startDate = 'now', $endDate = '+60 minutes', $timezone = date_default_timezone_get());
     $meeting = [
         'id' => $faker->unique()->numberBetween($min = 10000, $max = 90000),
         'race_num' => $faker->numberBetween($min = 1, $max = 10),

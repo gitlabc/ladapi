@@ -1,0 +1,11 @@
+.row {
+    padding: 5px 1em 5px 1em !important;
+    background-color: #fff !important;
+    border-bottom: solid 1px #efefef !important;
+    cursor: pointer;
+    height: 64px;
+}
+
+.btn {
+    width: 60px;
+}

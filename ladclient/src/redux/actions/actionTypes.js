@@ -1,0 +1,21 @@
+export const CHANGE_RACE_TYPE = 'CHANGE_RACE_TYPE';
+
+export const SHOW_SPINNER = 'SHOW_SPINNER';
+export const HIDE_SPINNER = 'HIDE_SPINNER';
+
+export const REQUEST_RACE = 'REQUEST_RACE';
+export const RECEIVE_RACE = 'RECEIVE_RACE';
+export const FAILED_RACE = 'FAILED_RACE';
+
+export const REQUEST_NEXT5 = 'REQUEST_NEXT5';
+export const RECEIVE_NEXT5 = 'RECEIVE_NEXT5';
+export const FAILED_NEXT5 = 'FAILED_NEXT5';
+
+export const TIMER_START = 'TIMER_START';
+export const TIMER_STOP = 'TIMER_STOP';
+
+export const UPDATE_TIMER_TICK = 'UPDATE_TIMER_TICK';
+export const UPDATE_TIMER_STOP = 'UPDATE_TIMER_STOP';
+
+export const FETCH_TIMER_TICK = 'FETCH_TIMER_TICK';
+export const FETCH_TIMER_STOP = 'FETCH_TIMER_STOP';
