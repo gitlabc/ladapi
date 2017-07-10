@@ -11,6 +11,7 @@ Object {
         "outcome": 1499258946,
         "race_num": 7,
         "status": "open",
+        "type": "G",
       },
       "11560": Object {
         "description": "Adrienne Plaza",
@@ -19,6 +20,7 @@ Object {
         "outcome": 1499257394,
         "race_num": 3,
         "status": "open",
+        "type": "H",
       },
       "13046": Object {
         "description": "Annamae Gardens",
@@ -27,6 +29,7 @@ Object {
         "outcome": 1499257204,
         "race_num": 2,
         "status": "open",
+        "type": "H",
       },
       "13171": Object {
         "description": "Olson Junction",
@@ -35,6 +38,7 @@ Object {
         "outcome": 1499258927,
         "race_num": 7,
         "status": "open",
+        "type": "H",
       },
       "13548": Object {
         "description": "Ortiz Shores",
@@ -43,6 +47,7 @@ Object {
         "outcome": 1499258855,
         "race_num": 6,
         "status": "open",
+        "type": "T",
       },
       "14707": Object {
         "description": "Beahan Pass",
@@ -51,6 +56,7 @@ Object {
         "outcome": 1499259717,
         "race_num": 5,
         "status": "open",
+        "type": "T",
       },
       "15167": Object {
         "description": "Reinger Common",
@@ -59,6 +65,7 @@ Object {
         "outcome": 1499260352,
         "race_num": 10,
         "status": "open",
+        "type": "T",
       },
       "15246": Object {
         "description": "Effertz Spur",
@@ -67,6 +74,7 @@ Object {
         "outcome": 1499257944,
         "race_num": 6,
         "status": "open",
+        "type": "G",
       },
       "15612": Object {
         "description": "Runolfsdottir Ports",
@@ -75,6 +83,7 @@ Object {
         "outcome": 1499257508,
         "race_num": 3,
         "status": "open",
+        "type": "G",
       },
       "16689": Object {
         "description": "Kiehn Summit",
@@ -83,6 +92,7 @@ Object {
         "outcome": 1499259023,
         "race_num": 8,
         "status": "open",
+        "type": "G",
       },
       "17976": Object {
         "description": "Crist Walks",
@@ -91,6 +101,7 @@ Object {
         "outcome": 1499259995,
         "race_num": 9,
         "status": "open",
+        "type": "G",
       },
       "18440": Object {
         "description": "Turner Inlet",
@@ -99,6 +110,7 @@ Object {
         "outcome": 1499259573,
         "race_num": 8,
         "status": "open",
+        "type": "H",
       },
       "19125": Object {
         "description": "Carlie Crossroad",
@@ -107,6 +119,7 @@ Object {
         "outcome": 1499258503,
         "race_num": 4,
         "status": "open",
+        "type": "T",
       },
       "19601": Object {
         "description": "Moen Village",
@@ -115,6 +128,7 @@ Object {
         "outcome": 1499257128,
         "race_num": 3,
         "status": "open",
+        "type": "G",
       },
       "20860": Object {
         "description": "Green Parkway",
@@ -123,6 +137,7 @@ Object {
         "outcome": 1499257834,
         "race_num": 4,
         "status": "open",
+        "type": "T",
       },
       "21023": Object {
         "description": "Littel Orchard",
@@ -131,6 +146,7 @@ Object {
         "outcome": 1499257445,
         "race_num": 2,
         "status": "open",
+        "type": "G",
       },
       "21693": Object {
         "description": "Kunze Vista",
@@ -139,6 +155,7 @@ Object {
         "outcome": 1499260209,
         "race_num": 10,
         "status": "open",
+        "type": "H",
       },
       "22025": Object {
         "description": "Adolf Landing",
@@ -147,6 +164,7 @@ Object {
         "outcome": 1499259737,
         "race_num": 8,
         "status": "open",
+        "type": "G",
       },
       "22716": Object {
         "description": "Lakin Vista",
@@ -155,6 +173,7 @@ Object {
         "outcome": 1499259414,
         "race_num": 8,
         "status": "open",
+        "type": "G",
       },
       "24214": Object {
         "description": "Thompson Valleys",
@@ -163,6 +182,7 @@ Object {
         "outcome": 1499257179,
         "race_num": 4,
         "status": "open",
+        "type": "G",
       },
       "24651": Object {
         "description": "Legros Extensions",
@@ -171,6 +191,7 @@ Object {
         "outcome": 1499260084,
         "race_num": 7,
         "status": "open",
+        "type": "T",
       },
       "24784": Object {
         "description": "Torp Field",
@@ -179,6 +200,7 @@ Object {
         "outcome": 1499259208,
         "race_num": 8,
         "status": "open",
+        "type": "H",
       },
       "25412": Object {
         "description": "Jessy Fields",
@@ -187,6 +209,7 @@ Object {
         "outcome": 1499258314,
         "race_num": 3,
         "status": "open",
+        "type": "H",
       },
       "26334": Object {
         "description": "Rutherford Place",
@@ -195,6 +218,7 @@ Object {
         "outcome": 1499258108,
         "race_num": 2,
         "status": "open",
+        "type": "H",
       },
       "26782": Object {
         "description": "Lakin Landing",
@@ -203,6 +227,7 @@ Object {
         "outcome": 1499258436,
         "race_num": 6,
         "status": "open",
+        "type": "H",
       },
       "28338": Object {
         "description": "Beahan Grove",
@@ -211,6 +236,7 @@ Object {
         "outcome": 1499258791,
         "race_num": 6,
         "status": "open",
+        "type": "G",
       },
       "28826": Object {
         "description": "Boyer Meadows",
@@ -219,6 +245,7 @@ Object {
         "outcome": 1499259481,
         "race_num": 7,
         "status": "open",
+        "type": "H",
       },
       "29777": Object {
         "description": "Tromp Ports",
@@ -227,6 +254,7 @@ Object {
         "outcome": 1499257379,
         "race_num": 2,
         "status": "open",
+        "type": "G",
       },
       "30458": Object {
         "description": "Helmer Forge",
@@ -235,6 +263,7 @@ Object {
         "outcome": 1499258934,
         "race_num": 6,
         "status": "open",
+        "type": "H",
       },
       "31043": Object {
         "description": "Amira Well",
@@ -243,6 +272,7 @@ Object {
         "outcome": 1499257592,
         "race_num": 5,
         "status": "open",
+        "type": "G",
       },
       "31636": Object {
         "description": "Emard Knolls",
@@ -251,6 +281,7 @@ Object {
         "outcome": 1499258888,
         "race_num": 6,
         "status": "open",
+        "type": "T",
       },
       "31960": Object {
         "description": "Senger Road",
@@ -259,6 +290,7 @@ Object {
         "outcome": 1499258000,
         "race_num": 5,
         "status": "open",
+        "type": "H",
       },
       "32323": Object {
         "description": "Bahringer Locks",
@@ -267,6 +299,7 @@ Object {
         "outcome": 1499257811,
         "race_num": 4,
         "status": "open",
+        "type": "G",
       },
       "32352": Object {
         "description": "Greg Locks",
@@ -275,6 +308,7 @@ Object {
         "outcome": 1499258156,
         "race_num": 5,
         "status": "open",
+        "type": "H",
       },
       "32679": Object {
         "description": "Burnice Expressway",
@@ -283,6 +317,7 @@ Object {
         "outcome": 1499259880,
         "race_num": 9,
         "status": "open",
+        "type": "H",
       },
       "32831": Object {
         "description": "Frances Dam",
@@ -291,6 +326,7 @@ Object {
         "outcome": 1499257667,
         "race_num": 4,
         "status": "open",
+        "type": "H",
       },
       "33093": Object {
         "description": "Bradtke Pass",
@@ -299,6 +335,7 @@ Object {
         "outcome": 1499259324,
         "race_num": 7,
         "status": "open",
+        "type": "T",
       },
       "33766": Object {
         "description": "Runolfsdottir Light",
@@ -307,6 +344,7 @@ Object {
         "outcome": 1499260125,
         "race_num": 10,
         "status": "open",
+        "type": "H",
       },
       "33827": Object {
         "description": "Madonna Lakes",
@@ -315,6 +353,7 @@ Object {
         "outcome": 1499257908,
         "race_num": 1,
         "status": "open",
+        "type": "H",
       },
       "34641": Object {
         "description": "Verda Dam",
@@ -323,6 +362,7 @@ Object {
         "outcome": 1499258387,
         "race_num": 4,
         "status": "open",
+        "type": "H",
       },
       "35261": Object {
         "description": "Bruen Fields",
@@ -331,6 +371,7 @@ Object {
         "outcome": 1499258604,
         "race_num": 6,
         "status": "open",
+        "type": "G",
       },
       "37298": Object {
         "description": "Rogahn Mission",
@@ -339,6 +380,7 @@ Object {
         "outcome": 1499257381,
         "race_num": 2,
         "status": "open",
+        "type": "H",
       },
       "37865": Object {
         "description": "Hoeger Meadows",
@@ -347,6 +389,7 @@ Object {
         "outcome": 1499259878,
         "race_num": 8,
         "status": "open",
+        "type": "H",
       },
       "39308": Object {
         "description": "O'Kon Hill",
@@ -355,6 +398,7 @@ Object {
         "outcome": 1499257181,
         "race_num": 1,
         "status": "open",
+        "type": "H",
       },
       "39422": Object {
         "description": "Lexus Cliff",
@@ -363,6 +407,7 @@ Object {
         "outcome": 1499259830,
         "race_num": 9,
         "status": "open",
+        "type": "G",
       },
       "40506": Object {
         "description": "Cathrine Drives",
@@ -371,6 +416,7 @@ Object {
         "outcome": 1499259922,
         "race_num": 8,
         "status": "open",
+        "type": "T",
       },
       "40585": Object {
         "description": "Autumn Knolls",
@@ -379,6 +425,7 @@ Object {
         "outcome": 1499257150,
         "race_num": 1,
         "status": "open",
+        "type": "T",
       },
       "40809": Object {
         "description": "Trey Via",
@@ -387,6 +434,7 @@ Object {
         "outcome": 1499257762,
         "race_num": 5,
         "status": "open",
+        "type": "H",
       },
       "41420": Object {
         "description": "Annalise Fords",
@@ -395,6 +443,7 @@ Object {
         "outcome": 1499258213,
         "race_num": 4,
         "status": "open",
+        "type": "T",
       },
       "42183": Object {
         "description": "Amos Gardens",
@@ -403,6 +452,7 @@ Object {
         "outcome": 1499257121,
         "race_num": 1,
         "status": "open",
+        "type": "H",
       },
       "43730": Object {
         "description": "Jakubowski Turnpike",
@@ -411,6 +461,7 @@ Object {
         "outcome": 1499257002,
         "race_num": 1,
         "status": "open",
+        "type": "T",
       },
       "45023": Object {
         "description": "Sandrine Court",
@@ -419,6 +470,7 @@ Object {
         "outcome": 1499259825,
         "race_num": 7,
         "status": "open",
+        "type": "T",
       },
       "46707": Object {
         "description": "Jason Road",
@@ -427,6 +479,7 @@ Object {
         "outcome": 1499258961,
         "race_num": 6,
         "status": "open",
+        "type": "H",
       },
       "48065": Object {
         "description": "Mayra Flats",
@@ -435,6 +488,7 @@ Object {
         "outcome": 1499260165,
         "race_num": 9,
         "status": "open",
+        "type": "H",
       },
       "48611": Object {
         "description": "Earlene Mountains",
@@ -443,6 +497,7 @@ Object {
         "outcome": 1499257526,
         "race_num": 4,
         "status": "open",
+        "type": "G",
       },
       "48625": Object {
         "description": "Evert Oval",
@@ -451,6 +506,7 @@ Object {
         "outcome": 1499257508,
         "race_num": 3,
         "status": "open",
+        "type": "G",
       },
       "48957": Object {
         "description": "Mitchell Ports",
@@ -459,6 +515,7 @@ Object {
         "outcome": 1499258693,
         "race_num": 5,
         "status": "open",
+        "type": "H",
       },
       "49864": Object {
         "description": "Kulas Isle",
@@ -467,6 +524,7 @@ Object {
         "outcome": 1499259743,
         "race_num": 9,
         "status": "open",
+        "type": "T",
       },
       "50506": Object {
         "description": "Treutel Path",
@@ -475,6 +533,7 @@ Object {
         "outcome": 1499257557,
         "race_num": 4,
         "status": "open",
+        "type": "H",
       },
       "50707": Object {
         "description": "Bailey Prairie",
@@ -483,6 +542,7 @@ Object {
         "outcome": 1499257138,
         "race_num": 2,
         "status": "open",
+        "type": "T",
       },
       "51125": Object {
         "description": "Wilburn Heights",
@@ -491,6 +551,7 @@ Object {
         "outcome": 1499259393,
         "race_num": 7,
         "status": "open",
+        "type": "H",
       },
       "51400": Object {
         "description": "Lia Plains",
@@ -499,6 +560,7 @@ Object {
         "outcome": 1499260406,
         "race_num": 8,
         "status": "open",
+        "type": "T",
       },
       "51957": Object {
         "description": "Jalen Courts",
@@ -507,6 +569,7 @@ Object {
         "outcome": 1499258929,
         "race_num": 7,
         "status": "open",
+        "type": "G",
       },
       "51992": Object {
         "description": "Zieme Ranch",
@@ -515,6 +578,7 @@ Object {
         "outcome": 1499260208,
         "race_num": 9,
         "status": "open",
+        "type": "T",
       },
       "52577": Object {
         "description": "Greenfelder Land",
@@ -523,6 +587,7 @@ Object {
         "outcome": 1499257498,
         "race_num": 5,
         "status": "open",
+        "type": "G",
       },
       "53106": Object {
         "description": "Aubrey Landing",
@@ -531,6 +596,7 @@ Object {
         "outcome": 1499260208,
         "race_num": 10,
         "status": "open",
+        "type": "G",
       },
       "55138": Object {
         "description": "Little Drives",
@@ -539,6 +605,7 @@ Object {
         "outcome": 1499257223,
         "race_num": 1,
         "status": "open",
+        "type": "T",
       },
       "58218": Object {
         "description": "Dorothea Fork",
@@ -547,6 +614,7 @@ Object {
         "outcome": 1499257470,
         "race_num": 2,
         "status": "open",
+        "type": "T",
       },
       "59441": Object {
         "description": "Harvey Square",
@@ -555,6 +623,7 @@ Object {
         "outcome": 1499257023,
         "race_num": 1,
         "status": "open",
+        "type": "H",
       },
       "60041": Object {
         "description": "Lang Fork",
@@ -563,6 +632,7 @@ Object {
         "outcome": 1499259819,
         "race_num": 9,
         "status": "open",
+        "type": "H",
       },
       "61405": Object {
         "description": "Jayne Points",
@@ -571,6 +641,7 @@ Object {
         "outcome": 1499257831,
         "race_num": 3,
         "status": "open",
+        "type": "H",
       },
       "62249": Object {
         "description": "Audra Turnpike",
@@ -579,6 +650,7 @@ Object {
         "outcome": 1499260531,
         "race_num": 10,
         "status": "open",
+        "type": "T",
       },
       "62445": Object {
         "description": "Gianni Turnpike",
@@ -587,6 +659,7 @@ Object {
         "outcome": 1499258691,
         "race_num": 5,
         "status": "open",
+        "type": "G",
       },
       "62566": Object {
         "description": "Katelin Locks",
@@ -595,6 +668,7 @@ Object {
         "outcome": 1499257002,
         "race_num": 1,
         "status": "open",
+        "type": "G",
       },
       "62842": Object {
         "description": "Goldner Junction",
@@ -603,6 +677,7 @@ Object {
         "outcome": 1499260363,
         "race_num": 10,
         "status": "open",
+        "type": "H",
       },
       "63044": Object {
         "description": "Eloy Pike",
@@ -611,6 +686,7 @@ Object {
         "outcome": 1499257023,
         "race_num": 1,
         "status": "open",
+        "type": "G",
       },
       "63607": Object {
         "description": "Lueilwitz Lane",
@@ -619,6 +695,7 @@ Object {
         "outcome": 1499260305,
         "race_num": 10,
         "status": "open",
+        "type": "T",
       },
       "65255": Object {
         "description": "Sporer Views",
@@ -627,6 +704,7 @@ Object {
         "outcome": 1499260363,
         "race_num": 10,
         "status": "open",
+        "type": "G",
       },
       "67371": Object {
         "description": "Lang Centers",
@@ -635,6 +713,7 @@ Object {
         "outcome": 1499257681,
         "race_num": 2,
         "status": "open",
+        "type": "T",
       },
       "67390": Object {
         "description": "Hills Park",
@@ -643,6 +722,7 @@ Object {
         "outcome": 1499259166,
         "race_num": 7,
         "status": "open",
+        "type": "H",
       },
       "68724": Object {
         "description": "Koelpin Port",
@@ -651,6 +731,7 @@ Object {
         "outcome": 1499257940,
         "race_num": 3,
         "status": "open",
+        "type": "T",
       },
       "69285": Object {
         "description": "Johnston Meadow",
@@ -659,6 +740,7 @@ Object {
         "outcome": 1499257377,
         "race_num": 3,
         "status": "open",
+        "type": "H",
       },
       "72363": Object {
         "description": "Bridgette Summit",
@@ -667,6 +749,7 @@ Object {
         "outcome": 1499260417,
         "race_num": 10,
         "status": "open",
+        "type": "G",
       },
       "72481": Object {
         "description": "Glover Cliffs",
@@ -675,6 +758,7 @@ Object {
         "outcome": 1499258329,
         "race_num": 5,
         "status": "open",
+        "type": "T",
       },
       "73080": Object {
         "description": "Andrew Inlet",
@@ -683,6 +767,7 @@ Object {
         "outcome": 1499259700,
         "race_num": 8,
         "status": "open",
+        "type": "H",
       },
       "74851": Object {
         "description": "Zora Run",
@@ -691,6 +776,7 @@ Object {
         "outcome": 1499259960,
         "race_num": 9,
         "status": "open",
+        "type": "H",
       },
       "74900": Object {
         "description": "Collier Squares",
@@ -699,6 +785,7 @@ Object {
         "outcome": 1499257742,
         "race_num": 3,
         "status": "open",
+        "type": "T",
       },
       "76423": Object {
         "description": "Mertz Loaf",
@@ -707,6 +794,7 @@ Object {
         "outcome": 1499257005,
         "race_num": 2,
         "status": "open",
+        "type": "G",
       },
       "76518": Object {
         "description": "Karolann Orchard",
@@ -715,6 +803,7 @@ Object {
         "outcome": 1499257925,
         "race_num": 4,
         "status": "open",
+        "type": "H",
       },
       "80121": Object {
         "description": "Sipes Springs",
@@ -723,6 +812,7 @@ Object {
         "outcome": 1499257263,
         "race_num": 2,
         "status": "open",
+        "type": "H",
       },
       "81025": Object {
         "description": "Terrence Crescent",
@@ -731,6 +821,7 @@ Object {
         "outcome": 1499259947,
         "race_num": 10,
         "status": "open",
+        "type": "H",
       },
       "81575": Object {
         "description": "Runolfsson Terrace",
@@ -739,6 +830,7 @@ Object {
         "outcome": 1499258733,
         "race_num": 5,
         "status": "open",
+        "type": "T",
       },
       "82100": Object {
         "description": "Newell Mountains",
@@ -747,6 +839,7 @@ Object {
         "outcome": 1499259466,
         "race_num": 9,
         "status": "open",
+        "type": "G",
       },
       "83184": Object {
         "description": "Lila Vista",
@@ -755,6 +848,7 @@ Object {
         "outcome": 1499259847,
         "race_num": 6,
         "status": "open",
+        "type": "T",
       },
       "84655": Object {
         "description": "Schiller Mills",
@@ -763,6 +857,7 @@ Object {
         "outcome": 1499260512,
         "race_num": 9,
         "status": "open",
+        "type": "T",
       },
       "84867": Object {
         "description": "Stehr Parkway",
@@ -771,6 +866,7 @@ Object {
         "outcome": 1499259738,
         "race_num": 8,
         "status": "open",
+        "type": "T",
       },
       "85204": Object {
         "description": "Steve Squares",
@@ -779,6 +875,7 @@ Object {
         "outcome": 1499258479,
         "race_num": 7,
         "status": "open",
+        "type": "G",
       },
       "87184": Object {
         "description": "Okuneva Ramp",
@@ -787,6 +884,7 @@ Object {
         "outcome": 1499258205,
         "race_num": 6,
         "status": "open",
+        "type": "H",
       },
       "88526": Object {
         "description": "Lexus Village",
@@ -795,6 +893,7 @@ Object {
         "outcome": 1499258149,
         "race_num": 3,
         "status": "open",
+        "type": "T",
       },
       "89783": Object {
         "description": "Eichmann Wall",
@@ -803,6 +902,7 @@ Object {
         "outcome": 1499257325,
         "race_num": 1,
         "status": "open",
+        "type": "G",
       },
     },
     "meetings": Object {

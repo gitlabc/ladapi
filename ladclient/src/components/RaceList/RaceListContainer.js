@@ -9,9 +9,10 @@ import { fetchTimerStop, updateTimerStop, updateTimerTick, getSelectedRace } fro
 const mapStateToProps = (state) => {
     const raceTypes = state.get('raceTypes');
     const events = state.getIn(['next5', 'events']);
+    const meetings = state.getIn(['next5', 'meetings']);
     // const meetings = next5.get('meetings');
     const now = (new Date()).getTime();
-    const [...keys] = events
+    const [...eventIds] = events
         .filter(e => {
             return e.get('outcome') * 1000 >= now && raceTypes.get(e.get('type'))
         })
@@ -21,8 +22,14 @@ const mapStateToProps = (state) => {
         })
         .take(5)
         .keys();
+    const [...meetingNames] = eventIds.map((eventId) => {
+        const meetingId = events.getIn([eventId, 'meeting_id']) + '';
+        const meetingName = meetings.getIn([meetingId, 'name']);
+        return meetingName;
+    });
     return {
-        keys: keys,
+        eventIds,
+        meetingNames,
         races: events,
     };
 }
