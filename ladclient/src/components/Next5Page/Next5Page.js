@@ -1,12 +1,12 @@
 import React from 'react';
 
-import RaceTypesBoxContainer from '../../components/RaceTypesBox';
-import RaceListContainer from '../../components/RaceList/';
+import RaceTypesBox from '../RaceTypesBox';
+import RaceList from '../RaceList/';
 
-const Next5Page = () => (
+const Next5Page = (props) => (
     <div>
-        <RaceTypesBoxContainer />
-        <RaceListContainer />
+        <RaceTypesBox {...props}/>
+        <RaceList  {...props}/>
     </div>
 );
 

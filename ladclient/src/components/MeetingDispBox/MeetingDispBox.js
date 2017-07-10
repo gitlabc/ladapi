@@ -17,5 +17,4 @@ MeetingDispBox.propTypes = {
   meeting: PropTypes.object.isRequired,
 }
 
-
 export default MeetingDispBox;

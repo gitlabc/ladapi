@@ -21,10 +21,10 @@ class RaceController extends Controller
      */
     public function nextFive(Request $request)
     {
-        $meeting = $request->input('meeting') ?? '';
-        $event_id = $request->input('event_id') ?? '';
+        $meetingId = $request->input('meeting') ?? '';
+        $eventId = $request->input('event') ?? '';
 
-        $message = $this->repository->getMessage($meeting, $event_id);
+        $message = $this->repository->getNext5Info($meetingId, $eventId);
 
         return response()->json($message, 200);
     }

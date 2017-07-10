@@ -1,1 +1,1 @@
-export { default } from './RaceListContainer';
+export { default } from './RaceList';

@@ -16,10 +16,10 @@ const RaceListItem = ({ event, meetingName, onRaceClick, now }) => (
     onClick={onRaceClick(event.id, event.meeting_id)}
   >
     <Col xs={2} sm={1}><div className={cx(styles.icn, icon.bg, icon[event.type + '2'])}></div> </Col>
-    <Col xs={14} sm={19}>{ meetingName.toUpperCase()}</Col>
+    <Col xs={14} sm={19}>{meetingName.toUpperCase()}</Col>
     <Col xs={2} sm={1}><Button type="primary" size="small" className={styles.btn} >R{event.race_num}</Button></Col>
     <Col xs={4} sm={2} style={{ textAlign: "right" }} >{secondsToHms(event.outcome - now)}</Col>
-    <Col xs={2} sm={1}><Icon type="right" /></Col>
+    <Col xs={2} sm={1} style={{ textAlign: "center" }}><Icon type="right" /></Col>
   </Row>
 )
 

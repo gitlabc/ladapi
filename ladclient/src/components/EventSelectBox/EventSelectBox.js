@@ -5,18 +5,18 @@ import { Row, Col, Button } from 'antd';
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const EventSelectBox = ({ events, eventId, meeting, onEventClick }) => {
+const EventSelectBox = ({ events, event, meeting, onEventClick }) => {
   let now = Math.round((new Date()).getTime() / 1000);
 
   return (
     <Row type="flex" justify="center" align="middle" gutter={1} className={styles.title} >
       {
-        events.map((event) => (
-          <Col span={1} key={event.id}>
+        events.map((e) => (
+          <Col span={1} key={e.id}>
             <Button
-              type={eventId === event.id ? 'primary' : event.outcome >= now ? 'default' : 'danger'}
-              onClick={onEventClick(event.id, meeting.id)} >
-              {event.race_num}
+              type={e.id === event.id ? 'primary' : e.outcome >= now ? 'default' : 'danger'}
+              onClick={onEventClick(e.id, meeting.id)} >
+              {e.race_num}
             </Button>
           </Col>
         ))
@@ -26,11 +26,10 @@ const EventSelectBox = ({ events, eventId, meeting, onEventClick }) => {
 };
 
 EventSelectBox.propTypes = {
-  eventId: PropTypes.number.isRequired,
+  event: PropTypes.object.isRequired,
   meeting: PropTypes.object.isRequired,
   events: PropTypes.array.isRequired,
   onEventClick: PropTypes.func.isRequired,
 };
-
 
 export default EventSelectBox;

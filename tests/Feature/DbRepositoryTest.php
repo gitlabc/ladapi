@@ -26,8 +26,8 @@ class DbRepositoryTest extends TestCase
     {
         $repository = new \App\Lad\Implementations\DbRepository();
         
-        $meetings = $repository->getNext5Meetings();
-        // \print_r($meetings->toArray());
+        $meetings = $repository->getNext5Meetings('all', '');
+        // \print_r($meetings);
 
         $this->assertNotNull($meetings);
     }
@@ -36,7 +36,7 @@ class DbRepositoryTest extends TestCase
     {
         $repository = new \App\Lad\Implementations\DbRepository();
                 
-        $meetings = $repository->getNext5Meetings();
+        $meetings = $repository->getNext5Meetings('all', '');
         $this->assertNotNull($meetings);
         $eventId = $repository->getClosestEventId($meetings);
         if ($meetings->count() > 0) {
@@ -51,7 +51,7 @@ class DbRepositoryTest extends TestCase
     {
         $repository = new \App\Lad\Implementations\DbRepository();
                 
-        $meetings = $repository->getNext5Meetings();
+        $meetings = $repository->getNext5Meetings('all', '');
         $eventId = $repository->getClosestEventId($meetings);
         $competitors = $repository->getNext5Competitors($eventId);
         $this->assertArrayHasKey('competitors', $competitors);

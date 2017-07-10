@@ -1,1 +1,1 @@
-export { default } from './CompetitorListContainer';
+export { default } from './CompetitorList';

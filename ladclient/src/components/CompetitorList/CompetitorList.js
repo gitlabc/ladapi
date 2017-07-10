@@ -13,26 +13,27 @@ class CompetitorList extends Component {
     }
 
     render() {
-        const { competitors } = this.props;
+        const { event, competitors } = this.props;
         let now = Math.round((new Date()).getTime() / 1000);
         return (
-            <ul>
+            <div>
                 {
                     competitors.map((competitor) => {
                         return (
-                            <CompetitorListItem key={competitor.id} competitor={competitor} now={now} />
+                            <CompetitorListItem key={competitor.id} event={event} competitor={competitor} now={now} />
                         )
                     }, this)
                 }
-            </ul>
+            </div>
         );
     }
 }
 
 CompetitorList.propTypes = {
-    competitors: PropTypes.array.isRequired,
     stopUpdate: PropTypes.func.isRequired,
     startUpdate: PropTypes.func.isRequired,
+    event: PropTypes.object.isRequired,
+    competitors: PropTypes.array.isRequired,
 };
 
 export default CompetitorList;

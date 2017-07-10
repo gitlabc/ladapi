@@ -14,33 +14,45 @@ class RaseControllerTest extends TestCase
         $response->assertStatus(200);
     }
 
-    public function testGetNext5WithOnlyMeeting()
+    public function testGetNext5WithNullMeetingAndNullEvent()
     {
-        $response = $this->get('/api/v1/next5?meeting=1');
+        $response = $this->get('/api/v1/next5?meeting=&event=');
         $response->assertStatus(200)
             ->assertJson(['status' => 'Successful', ])
-            ->assertJsonFragment(['type' => 'next5'])
-            ->assertJsonMissing(['type' => 'competitor', ]);
-
-        $response = $this->get('/api/v1/next5?meeting=1&event_id=');
-        $response->assertStatus(200)
-            ->assertJson(['status' => 'Successful', ])
-            ->assertJsonFragment(['type' => 'next5'])
-            ->assertJsonMissing(['type' => 'competitor', ]);
+            ->assertJsonMissing(['type' => 'next5'])
+            ->assertJsonMissing(['type' => 'competitor']);
     }
 
-    public function testGetNext5WithMeetingAndEventId()
+    public function testGetNext5WithAllMeeting()
     {
-        $response = $this->get('/api/v1/next5?meeting=1&event_id=340930');
+        $response = $this->get('/api/v1/next5?meeting=all');
+        $response->assertStatus(200)
+            ->assertJson(['status' => 'Successful', ])
+            ->assertJsonFragment(['type' => 'next5'])
+            ->assertJsonFragment(['type' => 'competitor']);
+    }
+
+    public function testGetNext5WithAllMeetingAllAndEvent()
+    {
+        $response = $this->get('/api/v1/next5?meeting=all&event=340930');
         $response->assertStatus(200)
             ->assertJson(['status' => 'Successful', ]) 
             ->assertJsonFragment(['type' => 'next5'])
             ->assertJsonFragment(['type' => 'competitor']);
     }
-    
-    public function testGetNext5WithOnlyEventId()
+
+    public function testGetNext5WithMeetingAndEvent()
     {
-        $response = $this->get('/api/v1/next5?event_id=340930');
+        $response = $this->get('/api/v1/next5?meeting=4724&event=340930');
+        $response->assertStatus(200)
+            ->assertJson(['status' => 'Successful', ])
+            ->assertJsonFragment(['type' => 'next5'])
+            ->assertJsonFragment(['type' => 'competitor']);
+    }
+    
+    public function testGetNext5WithOnlyEvent()
+    {
+        $response = $this->get('/api/v1/next5?event=340930');
         $response->assertStatus(200)
             ->assertJson(['status' => 'Successful', ])
             ->assertJsonMissing(['type' => 'next5'])

@@ -6,53 +6,49 @@ define('TYPES', ['T', 'G', 'H']);
 
 class DbRepository implements \App\Lad\Contracts\Repository
 {
-    use RepositoryTrait;
+    use DbRepositoryTrait;
 
-    public function getNext5Meetings() : \Illuminate\Support\Collection
+    public function getNext5Info(string $meetingId, string $eventId) : array
     {
         $meetings = null;
+        $competitors = null;
+        if (empty($meetingId) === false) {
+            $meetingCol = $this->getNext5Meetings($meetingId);
+            $meetings = [
+                'type' => 'next5',
+                'data' => $meetingCol->toArray(),
+                'hash' => '',
+            ];
 
-        foreach (TYPES as $type) {
-            $value = \App\Meeting::where('type', '=', $type)
-                ->whereHas('events', function ($query) {
-                $query->where([
-                    ['outcome_date', '>=', new \DateTime()],
-                ]);
-            })
-                ->take(10)
-                ->with('events')->get();
-
-            if (empty($meetings)) {
-                $meetings = $value;
-            }
-            else {
-                $meetings = $meetings->merge($value);
+            if ($meetingId === 'all') {
+                $eventId = (string)$this->getClosestEventId($meetingCol);
+                $competitors = [
+                    'type' => 'competitor',
+                    'data' => $this->getNext5Competitors($eventId),
+                    'hash' => '',
+                ];
             }
         }
-        return $meetings;
-    }
 
-    public function getClosestEventId(\Illuminate\Support\Collection $meetings) : int
-    {
-        $event = $meetings->map(function ($item, $key) {
-            return $item->events;
-            })
-            ->flatten()
-            ->sortBy('outcome')
-            ->first();
-        return $event ? $event->id : -1;
-    }
+        if (empty($eventId) === false) {
+            $competitors = [
+                'type' => 'competitor',
+                'data' => $this->getNext5Competitors($eventId),
+                'hash' => '',
+            ];
+        }
 
-    public function getNext5Competitors(string $eventId) : array
-    {
-        $event = \App\Event::where('id', '=', $eventId)->get();
-        $competitors = \App\Competitor::where('event_id', '=', $eventId)->orderBy('saddle_number')->get();
-        $data = [
-            'event_id' => $eventId,
-            'competitors' => $competitors->toArray(),
-            'event' => $event->toArray(),
+        $message = [
+            'status' => 'Successful',
+            'updates' => [],
         ];
 
-        return $data;
+        if (empty($meetings) === false) {
+            $message['updates'][] = $meetings;
+        }
+        if (empty($competitors) === false) {
+            $message['updates'][] = $competitors;
+        }
+        return $message;
     }
 }

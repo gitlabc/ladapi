@@ -14,7 +14,7 @@ const EventInfoBox = ({ event }) => (
         </div>
       </Col>
     </Row>
-    <Row type="flex" justify="center" align="middle" gutter={1} className={styles.desc} >
+    <Row type="flex" justify="center" align="middle" gutter={1} className={styles.description} >
       <Col span={24} style={{ textAlign: 'center' }}>
         <div>
           {event && event.description}

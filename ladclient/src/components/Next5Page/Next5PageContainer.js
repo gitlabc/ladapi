@@ -1,10 +1,10 @@
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router';
-import RaceList from './RaceList';
+import Next5Page from './Next5Page';
 
 import toJS from '../../utils/toJS';
 
-import { fetchTimerStop, updateTimerStop, updateTimerTick, getSelectedRace } from '../../redux/actions';
+import { fetchTimerStop, updateTimerStop, updateTimerTick, getSelectedRace, changeRaceType } from '../../redux/actions';
 
 const mapStateToProps = (state) => {
     const raceTypes = state.get('raceTypes');
@@ -27,10 +27,12 @@ const mapStateToProps = (state) => {
         const meetingName = meetings.getIn([meetingId, 'name']);
         return meetingName;
     });
+
     return {
         eventIds,
         meetingNames,
         races: events,
+        raceTypes: raceTypes,
     };
 }
 
@@ -46,7 +48,10 @@ const mapDispatchToProps = (dispatch, { history }) => ({
         dispatch(fetchTimerStop());
         dispatch(getSelectedRace(raceId, meetingID));
         history.push('/race');
-    }
+    },
+    onRaceTypeClick: (key) => () => {
+        dispatch(changeRaceType(key));
+    },
 });
 
-export default withRouter(connect(mapStateToProps, mapDispatchToProps)(toJS(RaceList)));
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(toJS(Next5Page)));

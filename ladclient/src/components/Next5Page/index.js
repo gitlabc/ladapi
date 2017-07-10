@@ -1,1 +1,1 @@
-export { default } from './Next5Page';
+export { default } from './Next5PageContainer';
