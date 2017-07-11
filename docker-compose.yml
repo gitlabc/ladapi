@@ -14,9 +14,9 @@ services:
         - "33061:3306"
   spa:
     image: node:8.1
-    working_dir: /code
     depends_on:
       - db
+    working_dir: /code
     volumes:
       - ./ladclient:/code
     entrypoint: bash /code/spa-entrypoint.sh
