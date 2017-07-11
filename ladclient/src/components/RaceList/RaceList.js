@@ -7,14 +7,14 @@ import RaceListItem from '../RaceListItem';
 
 class RaceList extends Component {
     render() {
-        const { eventIds, meetingNames, races, onRaceClick} = this.props;
+        const { top5Events, onRaceClick} = this.props;
         let now = Math.round((new Date()).getTime() / 1000);
         return (
             <div className={styles.rl}>
                 {
-                    eventIds.map((id, index) => {
+                    top5Events.map((event) => {
                         return (
-                            <RaceListItem key={id} meetingName={meetingNames[index]} event={races[id]} now={now} onRaceClick={onRaceClick} />
+                            <RaceListItem key={event.id} event={event} now={now} onRaceClick={onRaceClick} />
                         )
                     }, this)
                 }
@@ -24,13 +24,8 @@ class RaceList extends Component {
 }
 
 RaceList.propTypes = {
-    eventIds: PropTypes.array.isRequired,
-    meetingNames: PropTypes.array.isRequired,
-    races: PropTypes.object.isRequired,
-    startUpdate: PropTypes.func.isRequired,
-    stopUpdate: PropTypes.func.isRequired,
+    top5Events: PropTypes.array.isRequired,
     onRaceClick: PropTypes.func.isRequired,
-    history: PropTypes.object.isRequired,
 };
 
 export default RaceList;

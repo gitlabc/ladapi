@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MeetingDispBox should generate the MeetingDispBox 1`] = `
+<div
+  className="ant-row-flex ant-row-flex-center ant-row-flex-middle"
+  style={
+    Object {
+      "marginLeft": -4,
+      "marginRight": -4,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "paddingLeft": 4,
+        "paddingRight": 4,
+      }
+    }
+  >
+    NEW CYRUS
+  </div>
+</div>
+`;

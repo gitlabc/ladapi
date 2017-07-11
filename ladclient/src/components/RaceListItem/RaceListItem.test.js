@@ -1,65 +1,66 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import RaceListItem from './RaceListItem';
-import {shallow} from 'enzyme';
+import { shallow, mount, render } from 'enzyme';
+
+import { event, now } from '../../utils/testUtils';
 
 describe('RaceListItem', () => {
-    
-    test('should be passed', () => {
-        expect(true).toBe(true);
+    test('should generate the RaceListItem', () => {
+        const wrapper = renderer.create(<RaceListItem
+            event={event}
+            now={now}
+            onRaceClick={() => { }}
+        />);
+
+        expect(wrapper).toMatchSnapshot();
     });
-    
-    // test('should toggles erro type when show/hide password clicked', () => {
-    //     const wrapper1 = shallow(<RaceListItem 
-    //         htmlId="example-optional"
-    //         label="First Name"
-    //         name="firstname"
-    //         onChange={() => { }}
-    //         required
-    //     />);
 
-    //     expect(wrapper1.find('div')).toHaveLength(1);
-        
-    //     const wrapper2 = shallow(<RaceListItem 
-    //         htmlId="example-optional"
-    //         label="First Name"
-    //         name="firstname"
-    //         onChange={() => { }}
-    //         required
-    //         error="First name is required."            
-    //     />);
 
-    //     expect(wrapper2.find('div')).toHaveLength(2);
-    // });
-    
+    test('should display meeting name and race_num', () => {
+        const wrapper = render(
+            <RaceListItem
+                event={event}
+                now={now}
+                onRaceClick={() => { }}
+            />
+        );
+        expect(wrapper.text()).toContain(event.meetingName.toUpperCase());
+        expect(wrapper.text()).toContain('R'+event.race_num);
+    });
 
-    // test('should hides error by default', () => {
-    //     const tree = renderer.create(
-    //         <RaceListItem
-    //             htmlId="example-optional"
-    //             label="First Name"
-    //             name="firstname"
-    //             onChange={() => { }}
-    //             required
-    //         />
-    //     ).toJSON();
+    test('should have 1 button', () => {
+        const wrapper = render(
+            <RaceListItem
+                event={event}
+                now={now}
+                onRaceClick={() => { }}
+            />
+        );
+        expect(wrapper.find('button')).toHaveLength(1);
+    });
 
-    //     expect(tree).toMatchSnapshot();
-    // });
-
-    // test('should shows error when error is set', () => {
-    //     const tree = renderer.create(
-    //         <RaceListItem
-    //             htmlId="example-optional"
-    //             label="First Name"
-    //             name="firstname"
-    //             onChange={() => { }}
-    //             required
-    //             error="First name is required."
-    //         />
-    //     ).toJSON(); 
-
-    //     expect(tree).toMatchSnapshot();
-    // });
-    
+    test('simulate click events', () => {
+        let eventId = 0;
+        let meetingId = 0;
+        const onRaceClick = jest.fn().mockImplementation((e, m) => () => {
+            eventId = e;
+            meetingId = m;
+        });
+        const wrapper = mount(
+            <RaceListItem
+                event={event}
+                now={now}
+                onRaceClick={onRaceClick}
+            />
+        );
+        const index = 0;
+        expect(onRaceClick.mock.calls).toHaveLength(1);
+        wrapper.find('button').forEach((btn, i) => {
+            if (i === index) {
+                btn.simulate('click');
+            }
+        });
+        expect([event.id, event.meeting_id]).toEqual([eventId, meetingId]);
+    });
 });

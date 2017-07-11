@@ -9,6 +9,14 @@ import EventInfoBox from '../EventInfoBox';
 import CompetitorList from '../CompetitorList';
 
 class Next5Page extends Component {
+    componentDidMount() {
+        // this.props.stopUpdate();
+    }
+
+    componentWillUnmount() {
+        // this.props.startUpdate();
+    }
+
     componentWillReceiveProps(nextProps) {
         const { event, meeting, competitors, onEventClick } = nextProps;
         if (!this.hasFetchActionSent && event.id && !competitors.length) {
@@ -16,7 +24,7 @@ class Next5Page extends Component {
             onEventClick(event.id, meeting.id)();
         }
     }
-    
+
     render() {
         const props = this.props;
         return (
@@ -37,6 +45,8 @@ Next5Page.propTypes = {
     meeting: PropTypes.object.isRequired,
     competitors: PropTypes.array.isRequired,
     onEventClick: PropTypes.func.isRequired,
+    stopUpdate: PropTypes.func.isRequired,
+    startUpdate: PropTypes.func.isRequired,
 };
 
 export default Next5Page;

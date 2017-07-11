@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompetitroListItem should generate the CompetitorListItem 1`] = `
+<div
+  className="ant-row-flex ant-row-flex-space-around ant-row-flex-middle"
+  style={undefined}
+>
+  <div
+    className="ant-col-xs-1 ant-col-sm-1"
+  >
+    <div
+      className=""
+    />
+     
+  </div>
+  <div
+    className="ant-col-xs-8 ant-col-sm-9"
+  >
+    <div
+      className={undefined}
+    >
+      1
+      .
+      PROF. RAYMOND TREMBLAY III
+      (
+      2
+      )
+    </div>
+  </div>
+  <div
+    className="ant-col-xs-8 ant-col-sm-9"
+  >
+    2.2,2.4,3.6,5.7,6.6,8.2,9.2,9.4
+  </div>
+  <div
+    className="ant-col-xs-2 ant-col-sm-1"
+  >
+    <button
+      className="ant-btn ant-btn-primary ant-btn-sm"
+      onClick={[Function]}
+      onMouseUp={[Function]}
+      type="button"
+    >
+      <span>
+        12.23
+      </span>
+    </button>
+  </div>
+  <div
+    className="ant-col-xs-2 ant-col-sm-1"
+  >
+    <button
+      className="ant-btn ant-btn-primary ant-btn-sm"
+      onClick={[Function]}
+      onMouseUp={[Function]}
+      type="button"
+    >
+      <span>
+        30.86
+      </span>
+      <span>
+         
+      </span>
+    </button>
+  </div>
+</div>
+`;

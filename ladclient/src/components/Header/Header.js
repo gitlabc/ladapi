@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 import { Row, Col, Menu } from 'antd';
 
-const Header = (props) => (
+const Header = () => (
     <Row type="flex" >
         <Col span={1}>
             <Menu
@@ -16,7 +16,6 @@ const Header = (props) => (
                 style={{ lineHeight: '64px' }}
             >
                 <Menu.Item key="1"><Link to='/'>Home</Link></Menu.Item>
-                {/*<Menu.Item key="2"><Link to='/race'>Race</Link></Menu.Item>*/}
             </Menu>
         </Col>
         <Col span={23}>

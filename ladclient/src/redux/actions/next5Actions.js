@@ -32,7 +32,7 @@ function failedNext5() {
         type: FAILED_NEXT5,
     };
 }
-const meetingUrl = `http://localhost:8080/api/v1/next5?meeting=1`;
+const meetingUrl = `http://localhost:8080/api/v1/next5?meeting=all`;
 // const meetingUrl = 'https://www.ladbrokes.com.au/api/actions/update?feeds%5Bnext5%5D%5Bhash%5D=123';
 
 export const getNext5Races = () => {

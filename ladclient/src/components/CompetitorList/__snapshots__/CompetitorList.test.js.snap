@@ -1,0 +1,636 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompetitroList should generate the CompetitroList 1`] = `
+<div>
+  <div
+    className="ant-row-flex ant-row-flex-space-around ant-row-flex-middle"
+    style={undefined}
+  >
+    <div
+      className="ant-col-xs-1 ant-col-sm-1"
+    >
+      <div
+        className=""
+      />
+       
+    </div>
+    <div
+      className="ant-col-xs-8 ant-col-sm-9"
+    >
+      <div
+        className={undefined}
+      >
+        1
+        .
+        PROF. RAYMOND TREMBLAY III
+        (
+        2
+        )
+      </div>
+    </div>
+    <div
+      className="ant-col-xs-8 ant-col-sm-9"
+    >
+      2.2,2.4,3.6,5.7,6.6,8.2,9.2,9.4
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          12.23
+        </span>
+      </button>
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          30.86
+        </span>
+        <span>
+           
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="ant-row-flex ant-row-flex-space-around ant-row-flex-middle"
+    style={undefined}
+  >
+    <div
+      className="ant-col-xs-1 ant-col-sm-1"
+    >
+      <div
+        className=""
+      />
+       
+    </div>
+    <div
+      className="ant-col-xs-8 ant-col-sm-9"
+    >
+      <div
+        className={undefined}
+      >
+        2
+        .
+        ABDIEL RYAN
+        (
+        3
+        )
+      </div>
+    </div>
+    <div
+      className="ant-col-xs-8 ant-col-sm-9"
+    >
+      1.8,2.2,2.3,2.4,2.5,5,8.4,9.2
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          23.28
+        </span>
+      </button>
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          57.39
+        </span>
+        <span>
+           
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="ant-row-flex ant-row-flex-space-around ant-row-flex-middle"
+    style={undefined}
+  >
+    <div
+      className="ant-col-xs-1 ant-col-sm-1"
+    >
+      <div
+        className=""
+      />
+       
+    </div>
+    <div
+      className="ant-col-xs-8 ant-col-sm-9"
+    >
+      <div
+        className={undefined}
+      >
+        3
+        .
+        MR. LORENZA WELCH JR.
+        (
+        4
+        )
+      </div>
+    </div>
+    <div
+      className="ant-col-xs-8 ant-col-sm-9"
+    >
+      2.2,2.3,3.6,4.2,4.4,5.6,5.6,6.5
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          42.07
+        </span>
+      </button>
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          92.47
+        </span>
+        <span>
+           
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="ant-row-flex ant-row-flex-space-around ant-row-flex-middle"
+    style={undefined}
+  >
+    <div
+      className="ant-col-xs-1 ant-col-sm-1"
+    >
+      <div
+        className=""
+      />
+       
+    </div>
+    <div
+      className="ant-col-xs-8 ant-col-sm-9"
+    >
+      <div
+        className={undefined}
+      >
+        4
+        .
+        KOLBY ZIEMANN MD
+        (
+        5
+        )
+      </div>
+    </div>
+    <div
+      className="ant-col-xs-8 ant-col-sm-9"
+    >
+      1.5,5.3,5.6,7,7.4,8,8.3,9
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          49.48
+        </span>
+      </button>
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          90.5
+        </span>
+        <span>
+           
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="ant-row-flex ant-row-flex-space-around ant-row-flex-middle"
+    style={undefined}
+  >
+    <div
+      className="ant-col-xs-1 ant-col-sm-1"
+    >
+      <div
+        className=""
+      />
+       
+    </div>
+    <div
+      className="ant-col-xs-8 ant-col-sm-9"
+    >
+      <div
+        className={undefined}
+      >
+        5
+        .
+        DR. JEREMY SIPES MD
+        (
+        6
+        )
+      </div>
+    </div>
+    <div
+      className="ant-col-xs-8 ant-col-sm-9"
+    >
+      1.9,2.2,4,5.4,5.6,7.5,9.8,9.9
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          3.36
+        </span>
+      </button>
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          81.26
+        </span>
+        <span>
+           
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="ant-row-flex ant-row-flex-space-around ant-row-flex-middle"
+    style={undefined}
+  >
+    <div
+      className="ant-col-xs-1 ant-col-sm-1"
+    >
+      <div
+        className=""
+      />
+       
+    </div>
+    <div
+      className="ant-col-xs-8 ant-col-sm-9"
+    >
+      <div
+        className={undefined}
+      >
+        6
+        .
+        THAD REICHERT
+        (
+        7
+        )
+      </div>
+    </div>
+    <div
+      className="ant-col-xs-8 ant-col-sm-9"
+    >
+      2.5,3.3,3.3,4.7,4.7,5.7,7.4,8
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          76.84
+        </span>
+      </button>
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          71.66
+        </span>
+        <span>
+           
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="ant-row-flex ant-row-flex-space-around ant-row-flex-middle"
+    style={undefined}
+  >
+    <div
+      className="ant-col-xs-1 ant-col-sm-1"
+    >
+      <div
+        className=""
+      />
+       
+    </div>
+    <div
+      className="ant-col-xs-8 ant-col-sm-9"
+    >
+      <div
+        className={undefined}
+      >
+        7
+        .
+        DR. JAIRO HEIDENREICH II
+        (
+        8
+        )
+      </div>
+    </div>
+    <div
+      className="ant-col-xs-8 ant-col-sm-9"
+    >
+      1.5,3.5,4,6.8,6.9,7.3,8.7,9.1
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          82.67
+        </span>
+      </button>
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          91
+        </span>
+        <span>
+           
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="ant-row-flex ant-row-flex-space-around ant-row-flex-middle"
+    style={undefined}
+  >
+    <div
+      className="ant-col-xs-1 ant-col-sm-1"
+    >
+      <div
+        className=""
+      />
+       
+    </div>
+    <div
+      className="ant-col-xs-8 ant-col-sm-9"
+    >
+      <div
+        className={undefined}
+      >
+        8
+        .
+        MR. KENNY YOST
+        (
+        9
+        )
+      </div>
+    </div>
+    <div
+      className="ant-col-xs-8 ant-col-sm-9"
+    >
+      1.6,3.5,5,5.7,6.7,7.2,7.6,8.6
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          99.77
+        </span>
+      </button>
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          85.09
+        </span>
+        <span>
+           
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="ant-row-flex ant-row-flex-space-around ant-row-flex-middle"
+    style={undefined}
+  >
+    <div
+      className="ant-col-xs-1 ant-col-sm-1"
+    >
+      <div
+        className=""
+      />
+       
+    </div>
+    <div
+      className="ant-col-xs-8 ant-col-sm-9"
+    >
+      <div
+        className={undefined}
+      >
+        9
+        .
+        PAUL SCHAMBERGER
+        (
+        10
+        )
+      </div>
+    </div>
+    <div
+      className="ant-col-xs-8 ant-col-sm-9"
+    >
+      1.5,2.8,3,3.6,4.8,4.9,5.7,5.9
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          3.61
+        </span>
+      </button>
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          37.61
+        </span>
+        <span>
+           
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="ant-row-flex ant-row-flex-space-around ant-row-flex-middle"
+    style={undefined}
+  >
+    <div
+      className="ant-col-xs-1 ant-col-sm-1"
+    >
+      <div
+        className=""
+      />
+       
+    </div>
+    <div
+      className="ant-col-xs-8 ant-col-sm-9"
+    >
+      <div
+        className={undefined}
+      >
+        10
+        .
+        MISS JUDY BAUMBACH JR.
+        (
+        11
+        )
+      </div>
+    </div>
+    <div
+      className="ant-col-xs-8 ant-col-sm-9"
+    >
+      2.3,2.6,3.2,3.4,5.8,7,7.8,8.2
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          10
+        </span>
+      </button>
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          41.94
+        </span>
+        <span>
+           
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

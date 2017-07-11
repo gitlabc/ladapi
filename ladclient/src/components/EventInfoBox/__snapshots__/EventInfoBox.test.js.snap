@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompetitroListItem should generate the CompetitorListItem 1`] = `
+<div>
+  <div
+    className="ant-row-flex ant-row-flex-center ant-row-flex-middle"
+    style={
+      Object {
+        "marginLeft": -0.5,
+        "marginRight": -0.5,
+      }
+    }
+  >
+    <div
+      className="ant-col-24"
+      style={
+        Object {
+          "paddingLeft": 0.5,
+          "paddingRight": 0.5,
+          "textAlign": "center",
+        }
+      }
+    >
+      <div>
+        RACE 
+        10
+      </div>
+    </div>
+  </div>
+  <div
+    className="ant-row-flex ant-row-flex-center ant-row-flex-middle"
+    style={
+      Object {
+        "marginLeft": -0.5,
+        "marginRight": -0.5,
+      }
+    }
+  >
+    <div
+      className="ant-col-24"
+      style={
+        Object {
+          "paddingLeft": 0.5,
+          "paddingRight": 0.5,
+          "textAlign": "center",
+        }
+      }
+    >
+      <div>
+        Stamm Key
+      </div>
+    </div>
+  </div>
+</div>
+`;

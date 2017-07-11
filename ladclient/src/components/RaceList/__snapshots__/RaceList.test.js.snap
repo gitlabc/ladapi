@@ -1,0 +1,288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RaceList should generate the RaceList 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className="ant-row-flex ant-row-flex-middle"
+    onClick={undefined}
+    style={undefined}
+  >
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <div
+        className=""
+      />
+       
+    </div>
+    <div
+      className="ant-col-xs-14 ant-col-sm-19"
+    >
+      NEW CYRUS
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          R
+        </span>
+        10
+      </button>
+    </div>
+    <div
+      className="ant-col-xs-4 ant-col-sm-2"
+      style={
+        Object {
+          "textAlign": "right",
+        }
+      }
+    >
+        
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      <i
+        className="anticon anticon-right"
+      />
+    </div>
+  </div>
+  <div
+    className="ant-row-flex ant-row-flex-middle"
+    onClick={undefined}
+    style={undefined}
+  >
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <div
+        className=""
+      />
+       
+    </div>
+    <div
+      className="ant-col-xs-14 ant-col-sm-19"
+    >
+      NEW MATTEO
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          R
+        </span>
+        10
+      </button>
+    </div>
+    <div
+      className="ant-col-xs-4 ant-col-sm-2"
+      style={
+        Object {
+          "textAlign": "right",
+        }
+      }
+    >
+        
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      <i
+        className="anticon anticon-right"
+      />
+    </div>
+  </div>
+  <div
+    className="ant-row-flex ant-row-flex-middle"
+    onClick={undefined}
+    style={undefined}
+  >
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <div
+        className=""
+      />
+       
+    </div>
+    <div
+      className="ant-col-xs-14 ant-col-sm-19"
+    >
+      WEST SALMA
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          R
+        </span>
+        1
+      </button>
+    </div>
+    <div
+      className="ant-col-xs-4 ant-col-sm-2"
+      style={
+        Object {
+          "textAlign": "right",
+        }
+      }
+    >
+        
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      <i
+        className="anticon anticon-right"
+      />
+    </div>
+  </div>
+  <div
+    className="ant-row-flex ant-row-flex-middle"
+    onClick={undefined}
+    style={undefined}
+  >
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <div
+        className=""
+      />
+       
+    </div>
+    <div
+      className="ant-col-xs-14 ant-col-sm-19"
+    >
+      EAST TYRESE
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          R
+        </span>
+        2
+      </button>
+    </div>
+    <div
+      className="ant-col-xs-4 ant-col-sm-2"
+      style={
+        Object {
+          "textAlign": "right",
+        }
+      }
+    >
+        
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      <i
+        className="anticon anticon-right"
+      />
+    </div>
+  </div>
+  <div
+    className="ant-row-flex ant-row-flex-middle"
+    onClick={undefined}
+    style={undefined}
+  >
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <div
+        className=""
+      />
+       
+    </div>
+    <div
+      className="ant-col-xs-14 ant-col-sm-19"
+    >
+      WEST SALMA
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+    >
+      <button
+        className="ant-btn ant-btn-primary ant-btn-sm"
+        onClick={[Function]}
+        onMouseUp={[Function]}
+        type="button"
+      >
+        <span>
+          R
+        </span>
+        2
+      </button>
+    </div>
+    <div
+      className="ant-col-xs-4 ant-col-sm-2"
+      style={
+        Object {
+          "textAlign": "right",
+        }
+      }
+    >
+        
+    </div>
+    <div
+      className="ant-col-xs-2 ant-col-sm-1"
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      <i
+        className="anticon anticon-right"
+      />
+    </div>
+  </div>
+</div>
+`;

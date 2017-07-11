@@ -8,11 +8,11 @@ import { fetchTimerStop, updateTimerStop, updateTimerTick, getSelectedRace, chan
 
 const mapStateToProps = (state) => {
     const raceTypes = state.get('raceTypes');
-    const events = state.getIn(['next5', 'events']);
-    const meetings = state.getIn(['next5', 'meetings']);
+    const objEvents = state.getIn(['next5', 'events']);
+    const objMeetings = state.getIn(['next5', 'meetings']);
     // const meetings = next5.get('meetings');
     const now = (new Date()).getTime();
-    const [...eventIds] = events
+    const [...top5EventKeys] = objEvents
         .filter(e => {
             return e.get('outcome') * 1000 >= now && raceTypes.get(e.get('type'))
         })
@@ -22,17 +22,16 @@ const mapStateToProps = (state) => {
         })
         .take(5)
         .keys();
-    const [...meetingNames] = eventIds.map((eventId) => {
-        const meetingId = events.getIn([eventId, 'meeting_id']) + '';
-        const meetingName = meetings.getIn([meetingId, 'name']);
-        return meetingName;
+    const top5Events = top5EventKeys.map(key => {
+        let event = objEvents.get(key).toJS()
+        const meetingId = objEvents.getIn([key, 'meeting_id']) + '';
+        event.meetingName = objMeetings.getIn([meetingId, 'name']);
+        return event;
     });
 
     return {
-        eventIds,
-        meetingNames,
-        races: events,
-        raceTypes: raceTypes,
+        top5Events,
+        raceTypes,
     };
 }
 
@@ -43,10 +42,10 @@ const mapDispatchToProps = (dispatch, { history }) => ({
     stopUpdate: () => {
         dispatch(updateTimerStop());
     },
-    onRaceClick: (raceId, meetingID) => () => {
-        dispatch(updateTimerStop());
+    onRaceClick: (eventId, meetingID) => () => {
+        // dispatch(updateTimerStop());
         dispatch(fetchTimerStop());
-        dispatch(getSelectedRace(raceId, meetingID));
+        dispatch(getSelectedRace(eventId, meetingID));
         history.push('/race');
     },
     onRaceTypeClick: (key) => () => {

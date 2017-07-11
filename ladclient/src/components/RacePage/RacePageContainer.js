@@ -16,7 +16,7 @@ const mapStateToProps = (state) => {
     const meetingId = state.getIn(['selectRace', 'meetingId']) + '';
     const meeting = allMeetings.get(meetingId)
         || allMeetings.first()
-        || fromJS({ name: 'no recoreds' });
+        || fromJS({ name: 'no records' });
     const events = (meeting.has("events") && meeting.get("events").map(eventId => {
         return allEvents.get(eventId + '');
     })) || fromJS([]);

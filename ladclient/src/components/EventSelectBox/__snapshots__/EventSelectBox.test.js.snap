@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventSelectBox should generate the EventSelectBox 1`] = `
+<div
+  className="ant-row-flex ant-row-flex-center ant-row-flex-middle"
+  style={
+    Object {
+      "marginLeft": -0.5,
+      "marginRight": -0.5,
+    }
+  }
+>
+  <div
+    className="ant-col-1"
+    style={
+      Object {
+        "paddingLeft": 0.5,
+        "paddingRight": 0.5,
+      }
+    }
+  >
+    <button
+      className="ant-btn ant-btn-danger"
+      onClick={[Function]}
+      onMouseUp={[Function]}
+      type="button"
+    >
+      1
+    </button>
+  </div>
+  <div
+    className="ant-col-1"
+    style={
+      Object {
+        "paddingLeft": 0.5,
+        "paddingRight": 0.5,
+      }
+    }
+  >
+    <button
+      className="ant-btn ant-btn-danger"
+      onClick={[Function]}
+      onMouseUp={[Function]}
+      type="button"
+    >
+      2
+    </button>
+  </div>
+  <div
+    className="ant-col-1"
+    style={
+      Object {
+        "paddingLeft": 0.5,
+        "paddingRight": 0.5,
+      }
+    }
+  >
+    <button
+      className="ant-btn ant-btn-danger"
+      onClick={[Function]}
+      onMouseUp={[Function]}
+      type="button"
+    >
+      3
+    </button>
+  </div>
+  <div
+    className="ant-col-1"
+    style={
+      Object {
+        "paddingLeft": 0.5,
+        "paddingRight": 0.5,
+      }
+    }
+  >
+    <button
+      className="ant-btn ant-btn-danger"
+      onClick={[Function]}
+      onMouseUp={[Function]}
+      type="button"
+    >
+      4
+    </button>
+  </div>
+  <div
+    className="ant-col-1"
+    style={
+      Object {
+        "paddingLeft": 0.5,
+        "paddingRight": 0.5,
+      }
+    }
+  >
+    <button
+      className="ant-btn ant-btn-danger"
+      onClick={[Function]}
+      onMouseUp={[Function]}
+      type="button"
+    >
+      5
+    </button>
+  </div>
+  <div
+    className="ant-col-1"
+    style={
+      Object {
+        "paddingLeft": 0.5,
+        "paddingRight": 0.5,
+      }
+    }
+  >
+    <button
+      className="ant-btn ant-btn-danger"
+      onClick={[Function]}
+      onMouseUp={[Function]}
+      type="button"
+    >
+      6
+    </button>
+  </div>
+  <div
+    className="ant-col-1"
+    style={
+      Object {
+        "paddingLeft": 0.5,
+        "paddingRight": 0.5,
+      }
+    }
+  >
+    <button
+      className="ant-btn ant-btn-danger"
+      onClick={[Function]}
+      onMouseUp={[Function]}
+      type="button"
+    >
+      7
+    </button>
+  </div>
+  <div
+    className="ant-col-1"
+    style={
+      Object {
+        "paddingLeft": 0.5,
+        "paddingRight": 0.5,
+      }
+    }
+  >
+    <button
+      className="ant-btn ant-btn-danger"
+      onClick={[Function]}
+      onMouseUp={[Function]}
+      type="button"
+    >
+      8
+    </button>
+  </div>
+  <div
+    className="ant-col-1"
+    style={
+      Object {
+        "paddingLeft": 0.5,
+        "paddingRight": 0.5,
+      }
+    }
+  >
+    <button
+      className="ant-btn ant-btn-danger"
+      onClick={[Function]}
+      onMouseUp={[Function]}
+      type="button"
+    >
+      9
+    </button>
+  </div>
+  <div
+    className="ant-col-1"
+    style={
+      Object {
+        "paddingLeft": 0.5,
+        "paddingRight": 0.5,
+      }
+    }
+  >
+    <button
+      className="ant-btn ant-btn-primary"
+      onClick={[Function]}
+      onMouseUp={[Function]}
+      type="button"
+    >
+      10
+    </button>
+  </div>
+</div>
+`;

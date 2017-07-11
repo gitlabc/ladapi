@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RaceTypesBox should generate the RaceTypesBox 1`] = `
+<div
+  className="ant-row-flex ant-row-flex-center"
+  style={
+    Object {
+      "marginLeft": -4,
+      "marginRight": -4,
+    }
+  }
+>
+  <div
+    className="ant-col-8"
+    style={
+      Object {
+        "paddingLeft": 4,
+        "paddingRight": 4,
+      }
+    }
+  >
+    <button
+      className="ant-btn ant-btn-primary"
+      onClick={[Function]}
+      onMouseUp={[Function]}
+      type="button"
+    />
+  </div>
+  <div
+    className="ant-col-8"
+    style={
+      Object {
+        "paddingLeft": 4,
+        "paddingRight": 4,
+      }
+    }
+  >
+    <button
+      className="ant-btn ant-btn-primary"
+      onClick={[Function]}
+      onMouseUp={[Function]}
+      type="button"
+    />
+  </div>
+  <div
+    className="ant-col-8"
+    style={
+      Object {
+        "paddingLeft": 4,
+        "paddingRight": 4,
+      }
+    }
+  >
+    <button
+      className="ant-btn ant-btn-primary"
+      onClick={[Function]}
+      onMouseUp={[Function]}
+      type="button"
+    />
+  </div>
+</div>
+`;

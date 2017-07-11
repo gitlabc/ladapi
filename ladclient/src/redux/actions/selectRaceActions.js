@@ -1,4 +1,5 @@
 import fetch from 'isomorphic-fetch';
+import { getNext5CompetitorData } from '../../utils/normalizrUtils';
 import {
     REQUEST_RACE,
     RECEIVE_RACE,
@@ -20,10 +21,10 @@ function requestRace(raceId, meetingId) {
     };
 }
 
-function receiveRace(json) {
+function receiveRace(competitorData) {
     return {
         type: RECEIVE_RACE,
-        payload: json,
+        payload: competitorData,
     };
 }
 
@@ -37,15 +38,13 @@ export const getSelectedRace = (raceId, meetingId) => {
     return (dispatch) => {
         dispatch(requestRace(raceId, meetingId));
         dispatch(showSpinner());
-        return fetch(`http://localhost:8080/api/v1/next5?event_id=${raceId}`)
+        return fetch(`http://localhost:8080/api/v1/next5?event=${raceId}`)
             .then(response => response.json())
             .then((json) => {
                 if (json.status === 'Successful') {
-                    var competitor = json.updates.filter(update => {
-                        return update.type === 'competitor' && update.data.competitors.length > 0;
-                    });
-                    if (competitor.length) {
-                        dispatch(receiveRace(competitor[0].data));
+                    const competitors = getNext5CompetitorData(json);
+                    if (!!competitors) {
+                        dispatch(receiveRace(competitors));
                         dispatch(hideSpinner());
                         return;
                     }
